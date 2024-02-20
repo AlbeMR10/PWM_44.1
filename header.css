@@ -1,0 +1,12 @@
+.header-h{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #24282B;
+}
+
+.nav-txt{
+    color: white;
+}
