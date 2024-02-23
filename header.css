@@ -28,3 +28,30 @@ img{
     margin-top: 0.5%;
     margin-bottom: 0.25%;
 }
+
+.container {
+    font-family:  arial;
+    font-size:  24px;
+    margin:  25px;
+    width:  350px;
+    height:  200px;
+    outline:  dashed 1px black;
+    /* Center child vertically */
+    display:  flex;
+    align-items:  center;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-top: 15px; /* Adjust the margin as you like */
+}
+
+.language-switcher img {
+    width: 32px;
+    height: 21px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
