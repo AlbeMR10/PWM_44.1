@@ -11,3 +11,20 @@
     color: white;
 }
 
+.header-nav{
+    width: 50%;
+}
+
+.header-nav span{
+    margin-right: 2%;
+}
+
+
+
+
+img{
+    width: 7%;
+    height: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.25%;
+}
