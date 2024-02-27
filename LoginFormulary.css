@@ -1,16 +1,28 @@
 p {
-    color: #0bda39;
+    color: #0bda39; /* Esto cambia el color de las letras de los párrafos */
 }
 
 form {
-    text-align: center;
+    text-align: center; /* Esto centra el contenido del formulario */
+}
+
+input[type=text], input[type=email], input[type=password] {
+    color: #0bda39; /* Esto cambia el color de las letras de los campos de texto */
+    border: 1px solid #0bda39; /* Esto cambia el color del borde de los campos de texto */
+    padding: 10px; /* Esto añade un espacio entre el texto y el borde de los campos de texto */
+    margin: 5px; /* Esto añade un espacio entre los campos de texto */
 }
 
 input[type=submit] {
-    color: white;
-    background-color: #0bda39;
+    color: white; /* Esto cambia el color de las letras del botón */
+    background-color: #0bda39; /* Esto cambia el color de fondo del botón */
+    padding: 10px; /* Esto añade un espacio entre el texto y el borde del botón */
+    margin: 5px; /* Esto añade un espacio entre el botón y el resto del contenido */
+    border: none; /* Esto elimina el borde del botón */
+    cursor: pointer; /* Esto cambia el cursor a una mano cuando se pasa por encima del botón */
 }
+
 h1 {
-    color: green;
-    text-align: center;
+    color: #0bda39; /* Esto cambia el color del título */
+    text-align: center; /* Esto centra el título */
 }
