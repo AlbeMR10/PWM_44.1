@@ -1,0 +1,26 @@
+body{
+    background-color: #474E52;
+}
+
+.column-container {
+    column-count: 2; /* Define el número de columnas */
+    column-gap: 20px; /* Espacio entre las columnas */
+}
+
+
+
+.column-container .index-pop-leagues-tit .profile-text {
+    color: #0BDA39;
+}
+
+.column-container .images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column-container .images img{
+    max-width: 100px;
+    height: 100px;
+    margin: 10%;
+}
