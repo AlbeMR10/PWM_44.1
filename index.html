@@ -1,58 +1,29 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cómo previsualizar en tiempo real una web con HTTPS en VS Code</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+    <link href="./index.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <header>
-        <img src="logo.png" alt="Logo de campusMVP">
-        <nav>
-            <ul>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <article>
-            <h1>Cómo previsualizar en tiempo real una web con HTTPS en VS Code</h1>
-            <p>Publicado por José Manuel Alarcón el 23/02/2024</p>
-            <img src="vscode.png" alt="Captura de pantalla de VS Code con Live Server">
-            <p>Visual Studio Code es uno de los editores de código más populares y versátiles del mercado. Entre sus muchas características, destaca la posibilidad de instalar extensiones que amplían sus funcionalidades y lo adaptan a diferentes lenguajes y tecnologías.</p>
-            <p>Una de las extensiones más útiles para el desarrollo web es Live Server, que te permite ver tus cambios de código en vivo en un navegador, sin tener que recargar la página ni ejecutar ningún servidor local. Esto es muy práctico para ver el resultado de tu HTML, CSS y JavaScript al instante, y facilita el proceso de diseño y depuración.</p>
-            <p>Live Server funciona muy bien con páginas web que usan HTTP, pero ¿qué pasa si quieres usar HTTPS? ¿Es posible ver tu web con un certificado SSL y una conexión segura en VS Code? La respuesta es sí, y en este artículo te voy a explicar cómo hacerlo.</p>
-            <h2>Instalar Live Server</h2>
-            <p>Lo primero que necesitas es instalar la extensión Live Server en VS Code. Para ello, abre el panel de extensiones (Ctrl+Shift+X) y busca "Live Server". Selecciona la primera opción, que tiene más de 10 millones de descargas, y haz clic en el botón "Instalar".</p>
-            <img src="liveserver.png" alt="Captura de pantalla de la extensión Live Server en VS Code">
-            <p>Una vez instalada, verás que aparece un botón en la barra inferior de VS Code que dice "Go Live". Si haces clic en él, se abrirá una pestaña en tu navegador predeterminado con la dirección http://127.0.0.1:5500/index.html, donde index.html es el nombre del archivo HTML que tengas abierto en VS Code. Si modificas el código y guardas los cambios, verás que la página se actualiza automáticamente en el navegador.</p>
-            <h2>Configurar Live Server para HTTPS</h2>
-            <p>Para usar HTTPS con Live Server, necesitas hacer algunos pasos adicionales. Lo primero es generar un certificado SSL autofirmado, que es un archivo que acredita la identidad de tu sitio web y permite establecer una conexión segura. Puedes usar cualquier herramienta o servicio que te permita crear este tipo de certificados, pero yo te recomiendo usar [mkcert], una utilidad de línea de comandos que simplifica el proceso y funciona en Windows, Mac y Linux.</p>
-            <p>Para instalar mkcert, sigue las instrucciones de su página de GitHub. Una vez instalado, abre una terminal y ejecuta el siguiente comando:</p>
-            <pre><code>mkcert -install</code></pre>
-            <p>Esto creará una autoridad de certificación local en tu máquina, que es la entidad que emite y valida los certificados SSL. Luego, ejecuta el siguiente comando para generar el certificado SSL y la clave privada para tu sitio web local:</p>
-            <pre><code>mkcert 127.0.0.1 localhost ::1</code></pre>
-            <p>Esto creará dos archivos en tu carpeta actual: 127.0.0.1+2.pem y 127.0.0.1+2-key.pem. Estos son los archivos que necesitas para configurar Live Server para HTTPS. Puedes cambiar el nombre y la ubicación de estos archivos si quieres, pero recuerda dónde los guardas.</p>
-            <p>Ahora, abre VS Code y abre el archivo de configuración de Live Server. Para ello, haz clic en el icono de engranaje en la esquina inferior izquierda, selecciona "Configuración", busca "Live Server Config" y haz clic en "Editar en settings.json".</p>
-            <img src="settings.png" alt="Captura de pantalla de la configuración de Live Server en VS Code">
-            <p>En el archivo settings.json, añade las siguientes líneas, sustituyendo las rutas de los archivos por las que hayas usado:</p>
-            <pre><code>"liveServer.settings.https": {
-    "enable": true,
-    "cert": "C:\\Users\\TuUsuario\\127.0.0.1+2.pem",
-    "key": "C:\\Users\\TuUsuario\\127.0.0.1+2-key.pem",
-    "passphrase": ""
-}</code></pre>
-            <p>Guarda el archivo y reinicia VS Code. Ahora, cuando hagas clic en el botón "Go Live", se abrirá una pestaña en tu navegador con la dirección https://127.0.0.1:5500/index.html, donde index.html es el nombre del archivo HTML que tengas abierto en VS Code. Verás que la página tiene un candado verde y dice "Conexión segura" en la barra de direcciones, lo que indica que estás usando HTTPS.</p>
-            <img src="https.png" alt="Captura de pantalla de la página web con HTTPS en el navegador">
-            <p>¡Enhorabuena! Has conseguido previsualizar en tiempo real una web con HTTPS en VS Code. Ahora puedes desarrollar tu web con mayor seguridad y confianza, y ver el resultado de tu código al instante. Espero que te haya gustado este artículo y que te haya sido útil. Si tienes alguna duda o comentario, puedes dejarlo abajo. ¡Hasta la próxima!</p>
-        </article>
-    </main>
-    <footer>
-        <p>© 2024 campusMVP. Todos los derechos reservados.</p>
-    </footer>
-</div>
+    <iframe src="header.html" width="100%"></iframe>
+    <div class="index-pop-legues-tit">
+        <h1 class="home-text">Ligas Populares</h1>
+    </div>
+    <div class="images">
+        <img src="Images/laliga.png" alt="LaLiga">
+        <img src="Images/premier.png" alt="pemier">
+        <img src="Images/nba.png" alt="NBA">
+        <img src="Images/lec.webp" alt="LEC">
+    </div>
+    <div class="index-pop-clubs-tit">
+        <h1 class="home-text">Equipos Populares</h1>
+    </div>
+    <div class="images">
+        <img src="Images/fcb.png" alt="FCB">
+        <img src="Images/madrid.png" alt="RealMadrid">
+        <img src="Images/lakers.png" alt="Lakers">
+        <img src="Images/liverpool.png" alt="Liverpool">
+    </div>
 </body>
 </html>
