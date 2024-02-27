@@ -1,0 +1,16 @@
+p {
+    color: #0bda39;
+}
+
+form {
+    text-align: center;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: #0bda39;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
