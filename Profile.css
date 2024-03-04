@@ -22,7 +22,7 @@ header {
 }
 
 /* Estilos para las imágenes */
-.img-container {
+.img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

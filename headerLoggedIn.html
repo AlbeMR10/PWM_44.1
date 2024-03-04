@@ -2,26 +2,45 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Header</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>headerLoggedIn</title>
   <link href="./headerLoggedIn.css" rel="stylesheet">
-</head>
+  </head>
 <body>
-<header data-role="Header" class="headerLoggedIn">
-  <img alt="logo" class="header-image" src="Images/Components/Logo.png"/>
-  <div class="header-nav">
-    <nav>
-      <span class="nav-txt"><span>Inicio</span></span>
-      <span class="nav-txt"><span>Deportes</span></span>
-      <span class="nav-txt"><span>eSports</span></span>
-      <span class="nav-txt"><span>Sobre Nosotros</span></span>
-    </nav>
-  </div>
-  <img src="Images/Components/Bell.png" alt="Bandeja de Notificaciones">
-  <a href="Profile.html" class="profileLink"><img src="Images/Components/profile.png" alt="Perfil"></a>
-  <div class="language-switcher">
-      <img src="Images/Components/esp.png" alt="Español">
-      <img src="Images/Components/estados-unidos.png" alt="English">
-  </div>
+
+<header data-testid="HEADER" class="css-2s27l2">
+  <span data-testid="HEADER_LOGO_ANCHOR" class="css-qxik3n">
+    <img role="img" src="/Images/Components/Logo.png" alt="dazn" class="css-v7ibj3">
+  </span>
+  <button id="HEADER_SIGN_UP" class="css-1bpjs9g">
+    <span>REGISTRATE AHORA</span>
+  </button>
+  <button id="HEADER_SIGN_IN" class="css-1ly319g">
+    <span>INICIAR SESIÓN</span>
+  </button>
+
 </header>
+<!-- <header>
+  <img src="Images/Components/Logo.png" alt="Logo" id="logo-icon">
+  <nav>
+    <a href="index.html">Inicio</a>
+    <div class="dropdown">
+      <a href="#">Deportes</a>
+      <div class="dropdown-content">
+        <a href="#">Fútbol</a>
+        <a href="#">Baloncesto</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="#">Esports</a>
+      <div class="dropdown-content">
+        <a href="#">League of Legends</a>
+        <a href="#">Valorant</a>
+      </div>
+    </div>
+    <a href="#">Sobre Nosotros</a>
+  </nav>
+</header>
+-->
 </body>
 </html>
