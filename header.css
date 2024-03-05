@@ -1,4 +1,3 @@
-/* Estilos para el header */
 body, html {
     margin: 0;
     padding: 0;
@@ -7,72 +6,206 @@ body, html {
     flex-direction: column;
 }
 
-* {
-    box-sizing: border-box;
+
+header {
+    background-color: #333; /* Cambia el color de fondo según sea necesario */
 }
 
-.header-h {
-    width: 100%;
-    display: flex;
-    position: relative;
+nav {
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Coloca los elementos en fila */
     align-items: center;
     justify-content: space-between;
-    background-color: #24282B;
-    padding: 10px; /* Agregar un relleno opcional al header */
 }
 
-.nav-txt {
-    color: white;
+nav ul li div .menu .insideMenu a {
+    font-weight: lighter;
 }
 
-.header-nav {
-    width: 50%;
-    /* Añadir estilos para centrar el header-nav */
+nav ul li div .menu .insideMenu a:hover {
+    color: #0f0;
+}
+
+nav ul li:nth-child(n + 4):last-child {
+    margin-left: auto;
+}
+
+nav ul li {
+    margin-right: 20px;
+    position: relative;
     display: flex;
-    align-items: center;
-    white-space: nowrap; /* Evita el salto de línea */
-    overflow: hidden; /* Oculta el contenido adicional si no cabe en una línea */
 }
 
-.header-nav nav {
-    display: flex;
-    gap: 10px; /* Ajusta según sea necesario */
+
+nav ul li:not(.leftAligned, .insideMenu):hover {
+    border-bottom: 2px solid #0f0;
 }
 
-.header-nav span {
-    margin-right: 2%;
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
 }
 
-img {
-    width: 7%;
-    height: auto;
-    margin-top: 0.5%;
-    margin-bottom: 0.25%;
+nav ul li a {
+    color: white; /* Cambia el color del texto según sea necesario */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: border-bottom 0.3s ease; /* Transición suave para la línea */
+    font-weight: bold;
 }
 
-.container {
-    font-family: arial;
-    font-size: 24px;
-    margin: 25px;
-    width: 350px;
-    height: 200px;
-    outline: dashed 1px black;
-    /* Center child vertically */
-    display: flex;
-    align-items: center;
+/* Estilos para los menús desplegables */
+.sportsDropdown,
+.esportsDropdown {
+    position: relative;
 }
 
-.language-switcher {
+.sportsDropdown ul,
+.esportsDropdown ul {
     position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
+    top: 100%;
+    left: 0;
+    background-color: #333; /* Color de fondo del menú */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    padding: 10px;
+    display: none; /* Ocultar el menú por defecto */
 }
 
-.language-switcher img {
-    width: 32px;
-    height: 21px;
-    margin: 5px;
-    border: 1px solid #ccc;
+.sportsDropdown button,
+.esportsDropdown button {
+    background: none;
+    border: none;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.sportsDropdown button span,
+.esportsDropdown button span {
+    display: inline-block;
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+.sportsDropdown button svg,
+.esportsDropdown button svg {
+    fill: #fff; /* Color del icono */
+    width: 12px;
+    height: 12px;
+    transition: transform 0.3s ease;
+}
+
+.sportsDropdown button:hover svg,
+.esportsDropdown button:hover svg {
+    transform: rotate(180deg);
+}
+
+.sportsDropdown:hover ul,
+.esportsDropdown:hover ul {
+    display: block; /* Mostrar el menú al pasar el ratón sobre el botón */
+}
+
+.sportsDropdown ul li,
+.esportsDropdown ul li {
+    padding: 10px 0;
+}
+
+button {
+    margin: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: none;
+    border: none;
+    transition: all .20s;
+    color: #fff;
+
+    &:active:not([disabled]) {
+        --fill: #fff;
+        color: #fff;
+        transform: translateY(5px);
+    }
+}
+
+.languageButton {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.languageButton img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.profilePictureContainer .profilePicture {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    margin: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: none;
+    border: none;
+    transition: all .20s;
+}
+
+
+.registerButton:hover {
+    background: forestgreen;
+}
+
+.signUpButton:hover {
+    background: rgb(109, 115, 119);
+}
+
+.registerButton {
+    border: none;
+    overflow: visible;
+    appearance: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #4CAF50;
+    color: #fff;
+    width: auto;
+    padding: 10px 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 8px;
+    display: flex;
+}
+
+.signUpButton {
+    border: none;
+    overflow: visible;
+    appearance: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(61, 69, 73);
+    color: rgb(249, 250, 250);
+    width: auto;
+    padding: 10px 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.headerButtonGroup {
+    display: flex;
 }

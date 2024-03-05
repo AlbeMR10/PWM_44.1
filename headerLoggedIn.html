@@ -2,45 +2,76 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>headerLoggedIn</title>
+  <title>HeaderLoggedIn</title>
   <link href="./headerLoggedIn.css" rel="stylesheet">
-  </head>
+</head>
 <body>
-
-<header data-testid="HEADER" class="css-2s27l2">
-  <span data-testid="HEADER_LOGO_ANCHOR" class="css-qxik3n">
-    <img role="img" src="/Images/Components/Logo.png" alt="dazn" class="css-v7ibj3">
-  </span>
-  <button id="HEADER_SIGN_UP" class="css-1bpjs9g">
-    <span>REGISTRATE AHORA</span>
-  </button>
-  <button id="HEADER_SIGN_IN" class="css-1ly319g">
-    <span>INICIAR SESIÓN</span>
-  </button>
-
-</header>
-<!-- <header>
-  <img src="Images/Components/Logo.png" alt="Logo" id="logo-icon">
+<header data-role="Header" class="header2">
   <nav>
-    <a href="index.html">Inicio</a>
-    <div class="dropdown">
-      <a href="#">Deportes</a>
-      <div class="dropdown-content">
-        <a href="#">Fútbol</a>
-        <a href="#">Baloncesto</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <a href="#">Esports</a>
-      <div class="dropdown-content">
-        <a href="#">League of Legends</a>
-        <a href="#">Valorant</a>
-      </div>
-    </div>
-    <a href="#">Sobre Nosotros</a>
+    <ul>
+      <li>
+        <button>
+          <a href="index.html" id="indexLink">INICIO</a>
+        </button>
+      </li>
+      <li>
+        <div class="sportsDropdown">
+          <button id="sportsDropdownButton">
+            DEPORTES
+            <svg viewBox="0 0 16 16">
+              <polygon points="8 11.41 3.29 6.71 4.71 5.29 8 8.59 11.29 5.29 12.71 6.71 8 11.41"></polygon>
+            </svg>
+          </button>
+          <ul class="menu" aria-hidden="true">
+            <li class="insideMenu">
+              <a href="" title="Baloncesto" id="basketballLink">Baloncesto</a>
+            </li>
+            <li class="insideMenu">
+              <a href="" title="Fútbol" id="footballLink">Fútbol</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div  class="esportsDropdown">
+          <button id="esportsDropdownButton">
+            DEPORTES ELECTRÓNICOS
+            <svg viewBox="0 0 16 16">
+              <polygon points="8 11.41 3.29 6.71 4.71 5.29 8 8.59 11.29 5.29 12.71 6.71 8 11.41"></polygon>
+            </svg>
+          </button>
+          <ul class="menu" aria-hidden="true">
+            <li class="insideMenu">
+              <a href="" title="League of Legends">League of Legends</a>
+            </li>
+            <li class="insideMenu">
+              <a href="" title="Valorant">Valorant</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <button>
+          <a href="aboutUs.html" id="aboutUsLink">SOBRE NOSOTROS</a>
+        </button>
+      </li>
+      <li class="leftAligned">
+        <div class="profilePictureContainer">
+          <a href="Profile.html">
+            <img src="/Images/Components/Profile.png" alt="ImagenPerfil" class="profilePicture">
+          </a>
+        </div>
+        <button class="languageButton" id="languageButtonEsp">
+          <span> <img src="/Images/Components/esp.png" alt="español"></span>
+        </button>
+        <button class="languageButton" id="languageButtonEng">
+          <span> <img src="/Images/Components/estados-unidos.png" alt="english"></span>
+        </button>
+      </li>
+    </ul>
   </nav>
+  <script src="translateHeader.js"></script>
 </header>
--->
 </body>
 </html>
