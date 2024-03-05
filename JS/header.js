@@ -1,23 +1,15 @@
-document.addEventListener("DOMContentLoaded", function () {
+const headerURL = './Components/header.html';
 
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", "./header.html", true);
-
-    xhr.onload = function () {
-        if (xhr.status == 200) {
-            // Insertar el contenido del header en el contenedor
-            document.getElementById("headerContainer").innerHTML = xhr.responseText;
-
-
-
+fetch(headerURL)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('No se pudo cargar el header');
         }
-    };
-
-    // Manejar errores
-    xhr.onerror = function () {
-        console.error("Error al cargar el header.");
-    };
-
-    // Enviar la solicitud
-    xhr.send();
-});
+        return response.text();
+    })
+    .then(headerHTML => {
+        document.getElementById('headerContainer').innerHTML = headerHTML;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
