@@ -2,18 +2,34 @@ body{
     background-color: #474E52;
 }
 
-.home-text{
-    color: #0BDA39;
+.home-text1{
+    color: #ffffff;
+    padding-left: 1em;
+}
+.home-text2{
+    color: #ffffff;
+    padding-left: 2em;
 }
 
-.images{
+.home-images{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.images img{
-    max-width: 100px;
-    height: 100px;
-    margin: 10%;
+.home-images img{
+    width: 15em;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+.home-clubs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-clubs img{
+    width: 10em;
+    margin: 2em;
 }
