@@ -1,10 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="fonts/Roboto-Regular.ttf">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #474E52;
+        }
+
+        h1 {
+            color: #0BDA39;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        h2 {
+            color: #0BDA39;
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .left {
+            width: 40%;
+            padding: 10px;
+        }
+
+        .right {
+            width: 40%;
+            padding: 10px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        button {
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            width: 150px;
+            height: 50px;
+            background-color: #0BDA39;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        input {
+            display: block;
+            margin: 10px auto;
+            width: 80%;
+            height: 30px;
+            border: 1px solid #0BDA39;
+        }
+
+    </style>
 </head>
 <body>
+<iframe src="Components/header.html" width="100%" frameborder="0"></iframe>
+
+<h1>Editar Perfil</h1>
+
+<div class="container">
+
+    <div class="left">
+        <h2>Imagen de Perfil</h2>
+        <img src="../Images/Profile.png" alt="Foto de perfil">
+        <button>Cargar Imagen</button>
+    </div>
+
+    <div class="right">
+        <h2>Datos de usuario</h2>
+        <form>
+            <input type="text" name="username" placeholder="Nombre de usuario">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Contraseña">
+            <input type="password" name="confirm" placeholder="Confirmar contraseña">
+        </form>
+    </div>
+
+</div>
+
+<button>Actualizar</button>
 
 </body>
 </html>
