@@ -1,0 +1,27 @@
+@import "Default.css";
+
+.edit-profile {
+    text-align: center;
+}
+
+.edit-profile > img {
+    max-height: 30em;
+    width: auto;
+}
+
+.edit-profile > .upload-image > button{
+    color: var(--white-color); /* Color de las letras del botón */
+    background-color: var(--main-color); /* Color de fondo del botón */
+    padding: 10px; /* Espacio entre el texto y el borde del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Esto cambia el cursor a una mano cuando se pasa por encima del botón */
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+
+
+.side-right .subtitle {
+    text-align: center;
+}

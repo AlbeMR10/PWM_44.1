@@ -1,0 +1,32 @@
+@import "Default.css";
+
+
+.logo-club-star:not(.subtitle) {
+    text-align: center;
+}
+
+.logo-club-star > img {
+    max-height: 40em;
+    width: auto;
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-bottom: 4em;
+}
+
+.logo-club-star > button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    top: 5%;
+    position: absolute;
+    margin-top: 2em;
+}
+
+.logo-club-star button:hover polygon {
+    fill: yellow;
+}
+.matches {
+    color: var(--white-color);
+    font-size: 2em;
+    text-align: center;
+}

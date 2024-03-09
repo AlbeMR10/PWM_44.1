@@ -1,0 +1,26 @@
+<div class="divider-container">
+    <div class="side-left">
+        <section>
+            <div class="edit-profile">
+                <h1 class="subtitle">Editar Perfil</h1>
+                <img src="/images/components/genericavatar.png" alt="Perfil" id="new-profile-picture">
+                <div class="upload-image">
+                    <button onclick="document.getElementById('image').click()">Subir Imagen</button>
+                    <input type="file" id="image" name="image" style="display: none;" accept="image/*">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="side-right">
+        <section>
+            <h1 class="subtitle">Datos de Usuario</h1>
+            <form class="forms" method="post">
+                <p><input type="text" name="username" placeholder="Nombre de usuario" required></p>
+                <p><input type="email" name="email" placeholder="Email" required></p>
+                <p><input type="password" name="password" placeholder="Contraseña" required></p>
+                <p><input type="password" name="re-password" placeholder="Repetir contraseña" required></p>
+                <p><input type="submit" value="Actualizar" onclick="updateBeingLoggedIn()"></p>
+            </form>
+        </section>
+    </div>
+</div>

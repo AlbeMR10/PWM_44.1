@@ -1,0 +1,89 @@
+@import "Default.css";
+
+.favourite-leagues {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 3em;
+    margin: 2em;
+}
+
+.favourite-leagues > button > img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.5em;
+    aspect-ratio: 0.5;
+
+}
+
+.favourite-leagues > button {
+    background: none;
+    border: none;
+}
+
+.favourite-leagues > button > img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.favourite-teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1em;
+    margin: 2em;
+}
+
+.favourite-teams > button {
+    background: none;
+    border: none;
+}
+
+.favourite-teams > button > img {
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.favourite-teams > button > img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.divider-container {
+    display: flex; /* Utilizamos flexbox para dividir la ventana */
+    height: 100vh; /* La altura de la ventana */
+}
+
+.side-right, .side-left {
+    flex: 1; /* Cada mitad ocupará el 50% del espacio disponible */
+    display: inline-block;
+    justify-content: center;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile > img {
+    max-height: 30em;
+    width: auto;
+}
+
+.profile > button{
+    color: var(--white-color); /* Color de las letras del botón */
+    background-color: var(--main-color); /* Color de fondo del botón */
+    padding: 10px; /* Espacio entre el texto y el borde del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Esto cambia el cursor a una mano cuando se pasa por encima del botón */
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.email-text {
+    color: var(--white-color);
+    font-size: 1.5em;
+    margin-top: 0.75em;
+    margin-bottom: 1em;
+}

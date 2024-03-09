@@ -1,0 +1,57 @@
+@import "Default.css";
+
+.clasificacion > img {
+    margin-left: 2em;
+}
+
+.logo-league-star {
+    text-align: center;
+}
+
+.logo-league-star > img {
+    max-height: 20em;
+    width: auto;
+}
+
+.logo-league-star > button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    top: 5%;
+    position: absolute;
+}
+
+.logo-league-star button:hover polygon {
+    fill: yellow;
+}
+
+.side-right-grid {
+    flex: 1;
+    justify-content: center;
+    display: block;
+}
+
+.teams-league {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+    margin: 2em;
+}
+
+.teams-league > button {
+    background: none;
+    border: none;
+}
+
+.teams-league > button > img {
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.teams-league > button > img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
