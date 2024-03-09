@@ -3,9 +3,8 @@
     --white-color: #fff;
     --main-color: #0f0;
     --buttons-bg-color: #928C99;
+    --header-color: #24282B;
 }
-
-
 body {
     background-color: var(--bg-color);
     margin-top: 2em;

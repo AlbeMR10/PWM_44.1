@@ -4,6 +4,7 @@
 @import "EditProfile.css";
 @import "League.css";
 @import "Club.css";
+@import "header.css";
 
 * {
 	margin: 0;

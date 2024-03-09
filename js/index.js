@@ -1,9 +1,10 @@
 const LandingURL = './pages/Landing.html'
 const HeaderURL = './Components/Header.html'
+const Header2URL = './Components/HeaderLoggedIn.html'
 const FooterURL = './Components/Footer.html'
 
-const getHTML = (url, label) => {
-    fetch(url)
+async function getHTML  (url, label) {
+    await fetch(url)
         .then(response => {
             if (!response.ok) {
                 throw new Error('No se pudo cargar el contenido de la página');
@@ -11,7 +12,9 @@ const getHTML = (url, label) => {
             return response.text();
         })
         .then(html => {
-            history.pushState(null, '', url);
+            if (label === '#main') {
+                history.pushState(null, '', url);
+            }
             const mainLabel = document.querySelector(label)
             mainLabel.innerHTML = html;
             document.title = "AllSports | " + url.substring(url.lastIndexOf('/') + 1, url.lastIndexOf('.html'));
@@ -34,9 +37,9 @@ function togglePasswordVisibility() {
     }
 }
 
-function updateBeingLoggedIn() {
-    getHTML('./Components/headerLoggedIn.html', '#header');
-    getHTML('./pages/Landing.html', '#main');
+async function updateBeingLoggedIn() {
+    await getHTML(Header2URL, '#header');
+    await getHTML(LandingURL, '#main');
 }
 
 
@@ -45,6 +48,6 @@ window.addEventListener('popstate', function(event) {
 });
 
 
-//getHTML( HeaderURL, '#header' )
-getHTML(LandingURL, '#main')
-// getHTML( FooterURL, '#footer' )
+getHTML(Header2URL, '#header' )
+getHTML( LandingURL, '#main')
+getHTML( FooterURL, '#footer' )
