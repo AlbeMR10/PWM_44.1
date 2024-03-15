@@ -1,0 +1,483 @@
+{
+  "nombre": "La Liga EA Sports",
+  "logo": "../images/leagues/logo/laliga.png",
+  "art": "../images/leagues/arts/laliga.png",
+  "equipos": [
+    {
+      "nombre": "FC Barcelona",
+      "escudo": "../images/teams/laliga/fcb.png",
+      "porteros": [
+        {
+          "nombre": "Ter Stegen",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "Iñaki Peña",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Cancelo",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "Araujo",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "Koundé",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "Balde",
+          "dorsal": "3"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "Pedri",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "De Jong",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "Gündogan",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "Gavi",
+          "dorsal": "6"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Lewandowski",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "Raphinha",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "Félix",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "F.Torres",
+          "dorsal": "7"
+        }
+      ]
+    },
+    {
+      "nombre": "Real Madrid",
+      "escudo": "../images/teams/laliga/madrid.png",
+      "porteros": [
+        {
+          "nombre": "Courtois",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "Lunin",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Carvajal",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "Alaba",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "Rüdiger",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "Nacho",
+          "dorsal": "6"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "Modric",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "Kroos",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "F.Valverde",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "Thouaméni",
+          "dorsal": "18"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Vinicius",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Rodrygo",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "Bellingham",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "Joselu",
+          "dorsal": "14"
+        }
+      ]
+    },
+    {
+      "nombre": "Atlético Madrid",
+      "escudo": "../images/teams/laliga/atletico.png",
+      "porteros": [
+        {
+          "nombre": "Oblak",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "Moldovan",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Witsel",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "J.M.Giménez",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "Hermoso",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "Reinildo",
+          "dorsal": "23"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "De Paul",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "Llorente",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "Koke",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "Saul",
+          "dorsal": "8"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Morata",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "Griezman",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Correa",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "Depay",
+          "dorsal": "9"
+        }
+      ]
+    },
+    {
+      "nombre": "Girona",
+      "escudo": "../images/teams/laliga/girona.png",
+      "porteros": [
+        {
+          "nombre": "Gazzaniga",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "J. Carlos",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "M.Gutiérrez",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "Couto",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "Blind",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "E.García",
+          "dorsal": "25"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "I.Martin",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "A.García",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "Portu",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "P.Toore",
+          "dorsal": "18"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Sávio",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "Stuani",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Dovbyk",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "Tsygankov",
+          "dorsal": "8"
+        }
+      ]
+    },
+    {
+      "nombre": "Athletic Club",
+      "escudo": "../images/teams/laliga/athletic.png",
+      "porteros": [
+        {
+          "nombre": "U.Simón",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "Aguirrezabalaga",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Paredes",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "Vivian",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "Y.Berchiche",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "De Marcos",
+          "dorsal": "18"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "Sancet",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "A.Berenguer",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "De Galarreta",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "U.Gómez",
+          "dorsal": "30"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "N.Williams",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "I.Williams",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "Guruzeta",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "Muniain",
+          "dorsal": "10"
+        }
+      ]
+    },
+    {
+      "nombre": "Real Sociedad",
+      "escudo": "../images/teams/laliga/real-sociedad.png",
+      "porteros": [
+        {
+          "nombre": "A.Remiro",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "Marrero",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Traoré",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "A.Muñoz",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "J.Pacheco",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "Elustondo",
+          "dorsal": "6"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "Zubimendi",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "Zubeldia",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "B.Méndez",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "M.Merino",
+          "dorsal": "8"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Kubo",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "Barrenetxea",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Sadiq",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "B.Turrientes",
+          "dorsal": "22"
+        }
+      ]
+    },
+    {
+      "nombre": "Real Betis Balonpie",
+      "escudo": "../images/teams/laliga/betis.png",
+      "porteros": [
+        {
+          "nombre": "R.Silva",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "C.Bravo",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Pezzella",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "Bellerín",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "J.Miranda",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "Abner",
+          "dorsal": "20"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "M.Roca",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "Isco",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "G.Rodrigez",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "Fekir",
+          "dorsal": "8"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "A.Pérez",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "W.José",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "Abde",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "C.Ávila",
+          "dorsal": "9"
+        }
+      ]
+    },
+  ]
+}
