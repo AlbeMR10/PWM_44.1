@@ -479,5 +479,73 @@
         }
       ]
     },
+    {
+      "nombre": "Sevilla FC",
+      "escudo": "../images/teams/laliga/betis.png",
+      "porteros": [
+        {
+          "nombre": "R.Silva",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "C.Bravo",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Pezzella",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "Bellerín",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "J.Miranda",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "Abner",
+          "dorsal": "20"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "M.Roca",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "Isco",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "G.Rodrigez",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "Fekir",
+          "dorsal": "8"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "A.Pérez",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "W.José",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "Abde",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "C.Ávila",
+          "dorsal": "9"
+        }
+      ]
+    },
   ]
 }
