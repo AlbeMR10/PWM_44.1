@@ -1,0 +1,97 @@
+{
+  "nombre": "LEC",
+  "logo": "../images/leagues/logo/lec.png",
+  "art": "../images/leagues/arts/lec.png",
+  "equipos": [
+    {
+      "nombre": "Fnatic",
+      "logo": "../images/teams/lec/fnatic.png",
+      "Top": "Oscarinin",
+      "Jungla": "Razork",
+      "Mid": "Humanoid",
+      "Bot": "Noah",
+      "Support": "Jun"
+    },
+    {
+      "nombre": "G2 Esports",
+      "logo": "../images/teams/lec/g2.png",
+      "Top": "BrokenBlade",
+      "Jungla": "Yike",
+      "Mid": "Caps",
+      "Bot": "Hans Sama",
+      "Support": "Mikyx"
+    },
+    {
+      "nombre": "GiantX",
+      "logo": "../images/teams/lec/giantx.png",
+      "Top": "Odoamne",
+      "Jungla": "Peach",
+      "Mid": "Jackies",
+      "Bot": "Patrick",
+      "Support": "Ignar"
+    },
+    {
+      "nombre": "Karmine Corp",
+      "logo": "../images/teams/lec/kcorp.png",
+      "Top": "Cabochard",
+      "Jungla": "Bo",
+      "Mid": "Saken",
+      "Bot": "Upset",
+      "Support": "Targamas"
+    },
+    {
+      "nombre": "Mad Lions KOI",
+      "logo": "../images/teams/lec/madlions.png",
+      "Top": "Myrwn",
+      "Jungla": "ELyoya",
+      "Mid": "Fresskowy",
+      "Bot": "Supa",
+      "Support": "Alvaro"
+    },
+    {
+      "nombre": "Rogue",
+      "logo": "../images/teams/lec/rogue.png",
+      "Top": "Finn",
+      "Jungla": "Markoon",
+      "Mid": "Larssen",
+      "Bot": "Comp",
+      "Support": "Zoelys"
+    },
+    {
+      "nombre": "SK Gaming",
+      "logo": "../images/teams/lec/sk.png",
+      "Top": "Irrelevant",
+      "Jungla": "Isma",
+      "Mid": "Nisqy",
+      "Bot": "Exakick",
+      "Support": "Doss"
+    },
+    {
+      "nombre": "Team BDS",
+      "logo": "../images/teams/lec/bds.png",
+      "Top": "Adam",
+      "Jungla": "Sheo",
+      "Mid": "Nuc",
+      "Bot": "Ice",
+      "Support": "Labrov"
+    },
+    {
+      "nombre": "Team Heretics",
+      "logo": "../images/teams/lec/heretics.png",
+      "Top": "Wunder",
+      "Jungla": "Jankos",
+      "Mid": "Zwyroo",
+      "Bot": "Flakked",
+      "Support": "Trymbi"
+    },
+    {
+      "nombre": "Team Vitality",
+      "logo": "../images/teams/lec/vitality.png",
+      "Top": "Photon",
+      "Jungla": "Daglas",
+      "Mid": "Vetheo",
+      "Bot": "Carzzy",
+      "Support": "Hylissang"
+    }
+  ]
+}
