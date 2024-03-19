@@ -48,6 +48,6 @@ window.addEventListener('popstate', function(event) {
 });
 
 
-getHTML(Header2URL, '#header' )
+getHTML(HeaderURL, '#header' )
 getHTML( LandingURL, '#main')
 getHTML( FooterURL, '#footer' )
