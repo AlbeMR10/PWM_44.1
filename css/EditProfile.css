@@ -1,4 +1,4 @@
-@import "Default.css";
+/* Estilos existentes */
 
 .edit-profile {
     text-align: center;
@@ -9,19 +9,44 @@
     width: auto;
 }
 
-.edit-profile > .upload-image > button{
-    color: var(--white-color); /* Color de las letras del botón */
-    background-color: var(--main-color); /* Color de fondo del botón */
-    padding: 10px; /* Espacio entre el texto y el borde del botón */
-    border: none; /* Elimina el borde del botón */
-    cursor: pointer; /* Esto cambia el cursor a una mano cuando se pasa por encima del botón */
+.edit-profile > .upload-image > button {
+    color: var(--white-color);
+    background-color: var(--main-color);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
     border-radius: 0.5em;
     font-size: 1em;
     margin-top: 2em;
 }
 
-
-
 .side-right .subtitle {
     text-align: center;
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 360px) {
+    .divider-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-left, .side-right {
+        width: 100%;
+    }
+
+    .edit-profile, .side-right {
+        margin-bottom: 1em;
+    }
+
+    .edit-profile > img {
+        max-height: 10em; /* Ajusta la altura máxima de la imagen */
+        width: auto;
+        max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    }
+
+    .subtitle {
+        font-size: 1.2em; /* Ajusta el tamaño del texto para que coincida con el ancho del formulario */
+    }
+}
+

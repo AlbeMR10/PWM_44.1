@@ -1,0 +1,7 @@
+{
+  "nombre": "Premier League",
+  "logo": "../images/leagues/logo/premier.png",
+  "art": "../images/leagues/arts/premier.png",
+  "equipos": [
+  ]
+}

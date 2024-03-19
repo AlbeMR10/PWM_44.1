@@ -481,71 +481,887 @@
     },
     {
       "nombre": "Sevilla FC",
-      "escudo": "../images/teams/laliga/betis.png",
+      "escudo": "../images/teams/laliga/sevilla.png",
       "porteros": [
         {
-          "nombre": "R.Silva",
-          "dorsal": "13"
+          "nombre": "M.Dimitrovic",
+          "dorsal": "1"
         },
         {
-          "nombre": "C.Bravo",
+          "nombre": "O.Nyland",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "A.Pedrosa",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "S.Ramos",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "L.Badé",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "J.Navas",
+          "dorsal": "16"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "L.Ocampos",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "D.Sow",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "O.Torres",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "J.Sanches",
+          "dorsal": "26"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "En-Nesyri",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "Suso",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Rafa Mir",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "Lukebakio",
+          "dorsal": "11"
+        }
+      ]
+    },
+    {
+      "nombre": "Valencia CF",
+      "escudo": "../images/teams/laliga/valencia.png",
+      "porteros": [
+        {
+          "nombre": "Mamardashvili",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "J.Doménech",
           "dorsal": "1"
         }
       ],
       "defensas": [
         {
-          "nombre": "Pezzella",
-          "dorsal": "6"
-        },
-        {
-          "nombre": "Bellerín",
-          "dorsal": "2"
-        },
-        {
-          "nombre": "J.Miranda",
+          "nombre": "Mosquera",
           "dorsal": "3"
         },
         {
-          "nombre": "Abner",
+          "nombre": "T.Correia",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "J.Gaya",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "D.Foulquier",
           "dorsal": "20"
         }
       ],
       "centrocampistas": [
         {
-          "nombre": "M.Roca",
-          "dorsal": "21"
+          "nombre": "Pepelu",
+          "dorsal": "18"
         },
         {
-          "nombre": "Isco",
-          "dorsal": "22"
+          "nombre": "H.Guillamon",
+          "dorsal": "6"
         },
         {
-          "nombre": "G.Rodrigez",
-          "dorsal": "5"
-        },
-        {
-          "nombre": "Fekir",
+          "nombre": "J.Guerra",
           "dorsal": "8"
+        },
+        {
+          "nombre": "S.Amallah",
+          "dorsal": "19"
         }
       ],
       "delanteros": [
         {
-          "nombre": "A.Pérez",
+          "nombre": "H.Duro",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "D.Lopez",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "F.Perez",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "R.Yaremchuk",
+          "dorsal": "17"
+        }
+      ]
+    },
+    {
+      "nombre": "Villarreal FC",
+      "escudo": "../images/teams/laliga/villareal.png",
+      "porteros": [
+        {
+          "nombre": "F.Jörgensen",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "Pepe Reina",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "R.Albiol",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "J.Cuenca",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "A.Moreno",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "J.Foyth",
+          "dorsal": "8"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "Parejo",
           "dorsal": "10"
         },
         {
-          "nombre": "W.José",
-          "dorsal": "12"
+          "nombre": "A.Baena",
+          "dorsal": "16"
         },
         {
-          "nombre": "Abde",
+          "nombre": "S.Comesaña",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "E.Capoue",
+          "dorsal": "6"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "A.Sorloth",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "G.Moreno",
           "dorsal": "7"
         },
         {
-          "nombre": "C.Ávila",
+          "nombre": "Morales",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "I.Akhomac",
+          "dorsal": "27"
+        }
+      ]
+    },
+    {
+      "nombre": "Getafe",
+      "escudo": "../images/teams/laliga/getafe.png",
+      "porteros": [
+        {
+          "nombre": "D.Soria",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "D.Fuzato",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "D.Rico",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "D.Djene",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "O.Alderete",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "G.Alvarez",
+          "dorsal": "4"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "N.Maksimovic",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "C.Aleña",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "L.Milla",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "O.Rodriguez",
+          "dorsal": "9"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "B.Mayoral",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "M.Greenwood",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "J.Mata",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Latsa",
+          "dorsal": "14"
+        }
+      ]
+    },
+    {
+      "nombre": "UD Las Palmas",
+      "escudo": "../images/teams/laliga/las-palmas.png",
+      "porteros": [
+        {
+          "nombre": "A.Valles",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "A.Escandell",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "M.Marmol",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "S.Cardona",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "S.Coco",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "A.Suarez",
+          "dorsal": "4"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "Kirian",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "J.Muñoz",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "A.Moleiro",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "E.Loiodice",
+          "dorsal": "12"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Munir",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "Sandro",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "S.Kaba",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "M.Cardona",
+          "dorsal": "19"
+        }
+      ]
+    },
+    {
+      "nombre": "Osasuna",
+      "escudo": "../images/teams/laliga/osasuna.png",
+      "porteros": [
+        {
+          "nombre": "S.Herrera",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "A.Fernandez",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "J.Areso",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "D.Garcia",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "A.Catena",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "R.Mojica",
+          "dorsal": "22"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "J.Moncayola",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "A.Oroz",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "P.Ibañez",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "L.Torro",
+          "dorsal": "6"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "A.Budimir",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "Raul Garcia",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "Moi Gomez",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "Ruben Garcia",
+          "dorsal": "14"
+        }
+      ]
+    },
+    {
+      "nombre": "Deportivo Alavés",
+      "escudo": "../images/teams/laliga/alaves.png",
+      "porteros": [
+        {
+          "nombre": "A.Sivera",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "J.Owono",
+          "dorsal": "31"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "A.Gorosabel",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "R.Marin",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "J.Lopez",
+          "dorsal": "27"
+        },
+        {
+          "nombre": "R.Duarte",
+          "dorsal": "3"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "J.Guridi",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "A.Guevara",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "A.Blanco",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "C.Benavidez",
+          "dorsal": "23"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "L.Rioja",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "S.Omorodion",
+          "dorsal": "32"
+        },
+        {
+          "nombre": "K.Garcia",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "A.Sola",
+          "dorsal": "7"
+        }
+      ]
+    },
+    {
+      "nombre": "Mallorca",
+      "escudo": "../images/teams/laliga/mallorca.png",
+      "porteros": [
+        {
+          "nombre": "P.Rajkovic",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "I.Cuellar",
+          "dorsal": "25 "
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "G.Gonzalez",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "J.Costa",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "Lato",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "M.Valjent",
+          "dorsal": "24"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "M.Morlanes",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "D.Rodriguez",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "S.Darder",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "S.Costa",
+          "dorsal": "12"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "V.Muriuqi",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "C.Larin",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "A.Prats",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "J.Llabres",
+          "dorsal": "19"
+        }
+      ]
+    },
+    {
+      "nombre": "Rayo Vallecano",
+      "escudo": "../images/teams/laliga/rayo.png",
+      "porteros": [
+        {
+          "nombre": "S.Dimitrievski",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "D.Cardenas",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "F.Lejeune",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "P.Espino",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "I.Balliu",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "Aridane",
+          "dorsal": "5"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "O.Valentin",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "U.Lopez",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "O.Trejo",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "P.Ciss",
+          "dorsal": "21"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "J.De Frutos",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "Isi Palazon",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "A.Garcia",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "S.Camello",
+          "dorsal": "34"
+        }
+      ]
+    },
+    {
+      "nombre": "RC Celta",
+      "escudo": "../images/teams/laliga/celta.png",
+      "porteros": [
+        {
+          "nombre": "V.Guaita",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "I.Villar",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "O.Mingueza",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "U.Nuñez",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "C.Starfelt",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "M.Sanchez",
+          "dorsal": "23"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "C.Dotor",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "L.De La Torre",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "F.Beltran",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "R.Tapia",
+          "dorsal": "5"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "J.Larsen",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "I.Aspas",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "J.Bamba",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "A.Douvikas",
+          "dorsal": "12"
+        }
+      ]
+    },
+    {
+      "nombre": "Cadiz FC",
+      "escudo": "../images/teams/laliga/cadiz.png",
+      "porteros": [
+        {
+          "nombre": "C.Ledesma",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "D.Gil",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Iza",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "Fali",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "J.Hernandez",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "L.Pires",
+          "dorsal": "33"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "R.Alcaraz",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "A.Fernandez",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "G.Escalante",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "R.Kouamé",
+          "dorsal": "12"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "C.Ramos",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "I.Alejo",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "R.Sobrino",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "M.Gomez",
+          "dorsal": "25"
+        }
+      ]
+    },
+    {
+      "nombre": "Granada CF",
+      "escudo": "../images/teams/laliga/granada.png",
+      "porteros": [
+        {
+          "nombre": "A.Batalla",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "R.Fernandez",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "R.Sánchez",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "I.Miquel",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "C.Neva",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "R.Torrente",
+          "dorsal": "28"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "G.Gumbau",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "S.Ruiz",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "G.Villar",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "O.Melendo",
+          "dorsal": "21"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "A.Puertas",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "M.Uzuni",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "L.Boyé",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "J.Callejon",
           "dorsal": "9"
         }
       ]
     },
+    {
+      "nombre": "Almeria",
+      "escudo": "../images/teams/laliga/almeria.png",
+      "porteros": [
+        {
+          "nombre": "L.Maximiano",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "D.Mariño",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Edgar",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "Chumi",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "A.Pozo",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "M.Pubill",
+          "dorsal": "18"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "L.Robertone",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "A.Arribas",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "D.Lopy",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "G.Melero",
+          "dorsal": "11"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "L.Ramazani",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "L.Baptistao",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "A.Embarba",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "L.Suarez",
+          "dorsal": "9"
+        }
+      ]
+    }
   ]
 }
