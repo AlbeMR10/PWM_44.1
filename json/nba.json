@@ -1,5 +1,4 @@
 {
-  <<<<<<< HEAD
   "nombre": "NBA",
   "logo": "../images/leagues/logo/nba.png",
   "art": "../images/leagues/arts/nba.png",
@@ -853,101 +852,1178 @@
           "dorsal": "15"
         }
       ]
-      =======
-      "nombre": "LEC",
-      "logo": "../images/leagues/logo/lec.png",
-      "art": "../images/leagues/arts/lec.png",
-      "equipos": [
+    },
+    {
+      "nombre": "Portland Trail Blazers",
+      "escudo": "../images/teams/nba/blazers.png",
+      "bases": [
         {
-          "nombre": "Fnatic",
-          "logo": "../images/teams/lec/fnatic.png",
-          "Top": "Oscarinin",
-          "Jungla": "Razork",
-          "Mid": "Humanoid",
-          "Bot": "Noah",
-          "Support": "Jun"
+          "nombre": "M.Brogdon",
+          "dorsal": "92"
         },
         {
-          "nombre": "G2 Esports",
-          "logo": "../images/teams/lec/g2.png",
-          "Top": "BrokenBlade",
-          "Jungla": "Yike",
-          "Mid": "Caps",
-          "Bot": "Hans Sama",
-          "Support": "Mikyx"
+          "nombre": "S.Henderson",
+          "dorsal": "00"
         },
         {
-          "nombre": "GiantX",
-          "logo": "../images/teams/lec/giantx.png",
-          "Top": "Odoamne",
-          "Jungla": "Peach",
-          "Mid": "Jackies",
-          "Bot": "Patrick",
-          "Support": "Ignar"
+          "nombre": "D.Banton",
+          "dorsal": "45"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "A.Simons",
+          "dorsal": "1"
         },
         {
-          "nombre": "Karmine Corp",
-          "logo": "../images/teams/lec/kcorp.png",
-          "Top": "Cabochard",
-          "Jungla": "Bo",
-          "Mid": "Saken",
-          "Bot": "Upset",
-          "Support": "Targamas"
+          "nombre": "S.Sharpe",
+          "dorsal": "17"
         },
         {
-          "nombre": "Mad Lions KOI",
-          "logo": "../images/teams/lec/madlions.png",
-          "Top": "Myrwn",
-          "Jungla": "ELyoya",
-          "Mid": "Fresskowy",
-          "Bot": "Supa",
-          "Support": "Alvaro"
+          "nombre": "R.Rupert",
+          "dorsal": "72"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "J.Grant",
+          "dorsal": "9"
         },
         {
-          "nombre": "Rogue",
-          "logo": "../images/teams/lec/rogue.png",
-          "Top": "Finn",
-          "Jungla": "Markoon",
-          "Mid": "Larssen",
-          "Bot": "Comp",
-          "Support": "Zoelys"
+          "nombre": "M.Thybulle",
+          "dorsal": "4"
         },
         {
-          "nombre": "SK Gaming",
-          "logo": "../images/teams/lec/sk.png",
-          "Top": "Irrelevant",
-          "Jungla": "Isma",
-          "Mid": "Nisqy",
-          "Bot": "Exakick",
-          "Support": "Doss"
+          "nombre": "K.Murray",
+          "dorsal": "8"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "J.Walker",
+          "dorsal": "34"
         },
         {
-          "nombre": "Team BDS",
-          "logo": "../images/teams/lec/bds.png",
-          "Top": "Adam",
-          "Jungla": "Sheo",
-          "Mid": "Nuc",
-          "Bot": "Ice",
-          "Support": "Labrov"
+          "nombre": "T.Camara",
+          "dorsal": "33"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "D.Ayton",
+          "dorsal": "2"
         },
         {
-          "nombre": "Team Heretics",
-          "logo": "../images/teams/lec/heretics.png",
-          "Top": "Wunder",
-          "Jungla": "Jankos",
-          "Mid": "Zwyroo",
-          "Bot": "Flakked",
-          "Support": "Trymbi"
+          "nombre": "R.Williams",
+          "dorsal": "35"
+        }
+      ]
+    },
+    {
+      "nombre": "San Antonio Spurs",
+      "escudo": "../images/teams/nba/spurs.png",
+      "bases": [
+        {
+          "nombre": "Tre Jones",
+          "dorsal": "33"
         },
         {
-          "nombre": "Team Vitality",
-          "logo": "../images/teams/lec/vitality.png",
-          "Top": "Photon",
-          "Jungla": "Daglas",
-          "Mid": "Vetheo",
-          "Bot": "Carzzy",
-          "Support": "Hylissang"
-          >>>>>>> origin/Segundo_Sprint
+          "nombre": "D.Graham",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "B.Wesley",
+          "dorsal": "14"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "D.Vassell",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "M.Branham",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "S.Cissoko",
+          "dorsal": "25"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "J.Champagnie",
+          "dorsal": "30"
+        },
+        {
+          "nombre": "K.Johnson",
+          "dorsal": "3"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "J.Sochan",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "C.Osman",
+          "dorsal": "16"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "V.Wembanyama",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "Z.Collins",
+          "dorsal": "23"
         }
       ]
     }
+  ],
+  "equipos conferencia este": [
+    {
+      "nombre": "Boston Celtics",
+      "escudo": "../images/teams/nba/celtics.png",
+      "bases": [
+        {
+          "nombre": "J.Holiday",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "P.Pritchard",
+          "dorsal": "11"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "D.White",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "J.Springer",
+          "dorsal": "44"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "J.Brown",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "S.Hauser",
+          "dorsal": "30"
+        },
+        {
+          "nombre": "J.Walsh",
+          "dorsal": "27"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "Al Horford",
+          "dorsal": "42"
+        },
+        {
+          "nombre": "J.Tatum",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "O.Brissett",
+          "dorsal": "12"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "K.Porzingis",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "X.Tillman",
+          "dorsal": "26"
+        },
+        {
+          "nombre": "L.Kornet",
+          "dorsal": "40"
+        }
+      ]
+    },
+    {
+      "nombre": "Milwaukee Bucks",
+      "escudo": "../images/teams/nba/bucks.png",
+      "bases": [
+        {
+          "nombre": "D.Lillard",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "P.Beverley",
+          "dorsal": "21"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "M.Beasley",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "P.Connaughton",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "M.Beauchamp",
+          "dorsal": "3"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "K.Middleton",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "J.Crowder",
+          "dorsal": "99"
+        },
+        {
+          "nombre": "A.Jackson Jr",
+          "dorsal": "44"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "G.Antetokounmpo",
+          "dorsal": "34"
+        },
+        {
+          "nombre": "T.Antetokounmpo",
+          "dorsal": "43"
+        },
+        {
+          "nombre": "D.Gallinari",
+          "dorsal": "12"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "B.Lopez",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "B.Portis",
+          "dorsal": "9"
+        }
+      ]
+    },
+    {
+      "nombre": "Cleveland Cavaliers",
+      "escudo": "../images/teams/nba/cavaliers.png",
+      "bases": [
+        {
+          "nombre": "D.Garland",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "Ty Jerome",
+          "dorsal": "2"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "D.Mitchell",
+          "dorsal": "45"
+        },
+        {
+          "nombre": "C.Levert",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "S.Merrill",
+          "dorsal": "5"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "M.Strus",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "I.Okoro",
+          "dorsal": "35"
+        },
+        {
+          "nombre": "M.Morris",
+          "dorsal": "24"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "E.Mobley",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "G.Niang",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "D.Wade",
+          "dorsal": "32"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "J.Allen",
+          "dorsal": "31"
+        },
+        {
+          "nombre": "D.Jones",
+          "dorsal": "30"
+        },
+        {
+          "nombre": "T.Thompson",
+          "dorsal": "12"
+        }
+      ]
+    },
+    {
+      "nombre": "New York Knicks",
+      "escudo": "../images/teams/nba/knicks.png",
+      "bases": [
+        {
+          "nombre": "J.Brunson",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "M.McBride",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "S.Milton",
+          "dorsal": "13"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "A.Burks",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "D.Divincenzo",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "J.Hart",
+          "dorsal": "3"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "B.Bogdanovic",
+          "dorsal": "44"
+        },
+        {
+          "nombre": "D.Jeffries",
+          "dorsal": "21"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "O.G.Anunoby",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "P.Achiuwa",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "J.Randle",
+          "dorsal": "30"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "I.Hartenstein",
+          "dorsal": "55"
+        },
+        {
+          "nombre": "J.Sims",
+          "dorsal": "45"
+        },
+        {
+          "nombre": "M.Robinson",
+          "dorsal": "23"
+        }
+      ]
+    },
+    {
+      "nombre": "Orlando Magic",
+      "escudo": "../images/teams/nba/magic.png",
+      "bases": [
+        {
+          "nombre": "M.Fultz",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "C.Anthony",
+          "dorsal": "50"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "J.Suggs",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "G.Harris",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "A.Black",
+          "dorsal": "0"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "F.Wagner",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "J.Ingles",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "C.Houstan",
+          "dorsal": "2"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "P.Banchero",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "J.Isaac",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "C.Okeke",
+          "dorsal": "3"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "W.Carter Jr",
+          "dorsal": "34"
+        },
+        {
+          "nombre": "M.Wagner",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "G.Bitadze",
+          "dorsal": "35"
+        }
+      ]
+    },
+    {
+      "nombre": "Indiana Pacers",
+      "escudo": "../images/teams/nba/pacers.png",
+      "bases": [
+        {
+          "nombre": "T.Haliburton",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "T.J.McConnell",
+          "dorsal": "9"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "B.Mathurin",
+          "dorsal": "00"
+        },
+        {
+          "nombre": "B.Sheppard",
+          "dorsal": "26"
+        },
+        {
+          "nombre": "A.Nembhard",
+          "dorsal": "2"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "A.Nesmith",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "D.McDermott",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "K.Brown",
+          "dorsal": "10"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "P.Siakam",
+          "dorsal": "43"
+        },
+        {
+          "nombre": "O.Toppin",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "J.Walker",
+          "dorsal": "5"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "M.Turner",
+          "dorsal": "33"
+        },
+        {
+          "nombre": "J.Smith",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "I.Jackson",
+          "dorsal": "22"
+        }
+      ]
+    },
+    {
+      "nombre": "Miami Heat",
+      "escudo": "../images/teams/nba/heat.png",
+      "bases": [
+        {
+          "nombre": "T.Rozier",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "D.Wright",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "P.Mills",
+          "dorsal": "88"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "T.Herro",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "D.Robinson",
+          "dorsal": "55"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "J.Butler",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "J.Jaquez Jr",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "C.Martin",
+          "dorsal": "16"
+        }
+      ],
+      "ala-pivots": [
+        {
+        "nombre": "N.Jovic",
+        "dorsal": "5"
+        },
+        {
+          "nombre": "K.Love",
+          "dorsal": "42"
+        },
+        {
+        "nombre": "H.Highsmith",
+        "dorsal": "24"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "B.Adebayo",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "O.Robinson",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "T.Bryant",
+          "dorsal": "31"
+        }
+      ]
+    },
+    {
+      "nombre": "Philadelphia 76ers",
+      "escudo": "../images/teams/nba/76ers.png",
+      "bases": [
+        {
+          "nombre": "K.Lowry",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "C.Payne",
+          "dorsal": "22"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "T.Maxey",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "D.Melton",
+          "dorsal": "8"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "B.Hield",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "K.Oubre",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "R.Covington",
+          "dorsal": "33"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "T.Harris",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "N.Batum",
+          "dorsal": "40"
+        },
+        {
+          "nombre": "K.J.Martin Jr",
+          "dorsal": "1"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "J.Embiid",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "Mo Bamba",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "P.Reed",
+          "dorsal": "44"
+        }
+      ]
+    },
+    {
+      "nombre": "Chicago Bulls",
+      "escudo": "../images/teams/nba/bulls.png",
+      "bases": [
+        {
+          "nombre": "C.White",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "J.Carter",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "L.Ball",
+          "dorsal": "2"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "A.Dosunmu",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "A.Caruso",
+          "dorsal": "6"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "Z.Lavine",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "J.Phillips",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "D.Terry",
+          "dorsal": "25"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "D.DeRozan",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "T.Craig",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "P.Williams",
+          "dorsal": "44"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "N.Vucevic",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "A.Drummond",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "T.Taylor",
+          "dorsal": "32"
+        }
+      ]
+    },
+    {
+      "nombre": "Atlanta Hawks",
+      "escudo": "../images/teams/nba/hawks.png",
+      "bases": [
+        {
+          "nombre": "T.Young",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "T.Forrest",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "K.Bufkin",
+          "dorsal": "4"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "D.Murray",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "B.Bogdanovic",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "W.Matthews",
+          "dorsal": "32"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "S.Bey",
+          "dorsal": "41"
+        },
+        {
+          "nombre": "A.J.Griffin",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "G.Matthews",
+          "dorsal": "25"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "J.Johnson",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "D.Hunter",
+          "dorsal": "12"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "C.Capela",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "O.Okongwu",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "B.Fernando",
+          "dorsal": "24"
+        }
+      ]
+    },
+    {
+      "nombre": "Brooklyn Nets",
+      "escudo": "../images/teams/nba/nets.png",
+      "bases": [
+        {
+          "nombre": "D.Schroder",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "D.Smith Jr",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "B.Simmons",
+          "dorsal": "10"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "C.Thomas",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "L.Walker",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "D.Whitehead",
+          "dorsal": "0"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "M.Bridges",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "J.Wilson",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "K.Bates-Diop",
+          "dorsal": "13"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "C.Johnson",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "D.Finney-Smith",
+          "dorsal": "28"
+        },
+        {
+          "nombre": "T.Watford",
+          "dorsal": "9"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "N.Claxton",
+          "dorsal": "33"
+        },
+        {
+          "nombre": "D.Sharpe",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "N.Clowney",
+          "dorsal": "21"
+        }
+      ]
+    },
+    {
+      "nombre": "Toronto Raptors",
+      "escudo": "../images/teams/nba/raptors.png",
+      "bases": [
+        {
+          "nombre": "I.Quickley",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "J.Freeman",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "J.Ramsey",
+          "dorsal": "37"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "G.Trent Jr",
+          "dorsal": "33"
+        },
+        {
+          "nombre": "G.Dick",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "G.Temple",
+          "dorsal": "14"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "B.Brown",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "R.J.Barret",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "O.Agbaji",
+          "dorsal": "30"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "S.Barnes",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "J.Nwora",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "J.McDaniels",
+          "dorsal": "2"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "J.Poeltl",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "K.Ollynyk",
+          "dorsal": "41"
+        }
+      ]
+    },
+    {
+      "nombre": "Charlotte Hornets",
+      "escudo": "../images/teams/nba/hornets.png",
+      "bases": [
+        {
+          "nombre": "L.Ball",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "V.Micic",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "T.Mann",
+          "dorsal": "23"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "B.Miller",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "C.Martin",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "S.Curry",
+          "dorsal": "14"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "M.Bridges",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "N.Smith Jr",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "B.McGowens",
+          "dorsal": "7"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "G.Williams",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "J.T.Thor",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "A.Pokusevski",
+          "dorsal": "17 "
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "N.Richards",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "M.Williams",
+          "dorsal": "5"
+        }
+      ]
+    },
+    {
+      "nombre": "Detroit Pistons",
+      "escudo": "../images/teams/nba/pistons.png",
+      "bases": [
+        {
+          "nombre": "C.Cunningham",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "M.Sasser",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "M.Flynn",
+          "dorsal": "14"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "J.Ivey",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "Q.Grimes",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "E.Fournier",
+          "dorsal": "31"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "A.Thompson",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "S.Fontecchio",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "S.Umude",
+          "dorsal": "17"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "I.Stewart",
+          "dorsal": "28"
+        },
+        {
+          "nombre": "T.Brown",
+          "dorsal": "7"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "J.Duren",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "J.Wiseman",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "T.Gibson",
+          "dorsal": "67"
+        }
+      ]
+    },
+    {
+      "nombre": "Washington Wizards",
+      "escudo": "../images/teams/nba/wizards.png",
+      "bases": [
+        {
+          "nombre": "T.Jones",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "J.Poole",
+          "dorsal": "13"
+        }
+      ],
+      "escoltas": [
+        {
+          "nombre": "L.Shamet",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "J.Davis",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "D.Avdija",
+          "dorsal": "8"
+        }
+      ],
+      "aleros": [
+        {
+          "nombre": "B.Coulibaly",
+          "dorsal": "0"
+        },
+        {
+          "nombre": "I.Rivers",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "C.Kispert",
+          "dorsal": "24"
+        }
+      ],
+      "ala-pivots": [
+        {
+          "nombre": "K.Kuzma",
+          "dorsal": "33"
+        },
+        {
+          "nombre": "P.Baldwin Jr",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "E.Omoruyi",
+          "dorsal": "97"
+        }
+      ],
+      "pivots": [
+        {
+          "nombre": "M.Bagley III",
+          "dorsal": "35"
+        },
+        {
+          "nombre": "R.Holmes",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "A.Gill",
+          "dorsal": "16"
+        }
+      ]
+    }
+  ]
+}
