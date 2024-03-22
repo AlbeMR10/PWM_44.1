@@ -20,3 +20,10 @@
     <button class="register-button" onclick="getHTML('./RegisterFormulary.html', '#main')">Regístrate ahora</button>
     <button class="sign-up-button" onclick="getHTML('./LoginFormulary.html', '#main')">Iniciar Sesión</button>
 </div>
+<Script>
+    /* JavaScript para manejar el clic del botón de menú */
+    document.querySelector('.menu-button').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.querySelector('header nav ul').classList.toggle('show');
+    });</Script>
+

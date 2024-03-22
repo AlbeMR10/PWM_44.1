@@ -1,12 +1,25 @@
 <section>
     <h1 class="title2">Registrate en AllSports</h1>
-    <form class="forms" method="post">
-        <p><input type="text" name="name" placeholder="Nombre" required></p>
-        <p><input type="text" name="surname" placeholder="Apellidos" required></p>
-        <p><input type="text" name="username" placeholder="Nombre de usuario" required></p>
+    <form class="forms" method="post" onsubmit="return verificarContraseñas();">
+        <p><input type="text" name="name" placeholder="Nombre" required pattern="[A-Za-zÀ-ÿ\s]{1,40}" title="Solo letras y espacios, hasta 40 caracteres"></p>
+        <p><input type="text" name="surname" placeholder="Apellidos" required pattern="[A-Za-zÀ-ÿ\s]{1,80}" title="Solo letras y espacios, hasta 80 caracteres"></p>
+        <p><input type="text" name="username" placeholder="Nombre de usuario" required pattern="[A-Za-z0-9_]{1,20}" title="Letras, números y guiones bajos, hasta 20 caracteres"></p>
         <p><input type="email" name="email" placeholder="Email" required></p>
-        <p><input type="password" name="password" placeholder="Contraseña" required></p>
-        <p><input type="password" name="re-password" placeholder="Repetir contraseña" required></p>
-        <p><input type="submit" value="Registrarse" onclick="updateBeingLoggedIn()"></p>
+        <p><input type="password" name="password" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,}" title="Debe contener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial."></p>
+        <p><input type="password" name="re-password" placeholder="Repetir contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,}" title="Debe contener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial."></p>
+        <p><input type="submit" value="Registrarse"></p>
     </form>
 </section>
+
+<script>
+    function verificarContraseñas() {
+        var contraseña = document.querySelector('.forms input[name="password"]').value;
+        var repetirContraseña = document.querySelector('.forms input[name="re-password"]').value;
+        if (contraseña !== repetirContraseña) {
+            alert("Las contraseñas no coinciden.");
+            return false;
+        }
+        // Aquí puedes añadir cualquier otra lógica que necesites ejecutar cuando las contraseñas coincidan
+        return true;
+    }
+</script>

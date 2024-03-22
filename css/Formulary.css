@@ -63,6 +63,31 @@ input[type=submit] {
     padding: 10px 15px; /* Ajusta el relleno según sea necesario */
     margin: 0; /* Elimina el margen para alinear correctamente con el campo de contraseña */
 }
+/* Media query para pantallas grandes */
+@media (max-width: 1440px) {
+    .title2 {
+        font-size: 3.5em; /* Ligeramente más pequeño para pantallas grandes */
+        margin-bottom: 0.5em; /* Menos espacio debajo del título */
+    }
+
+    .forms {
+        width: 80%; /* El formulario ocupa el 80% del ancho en pantallas grandes */
+        max-width: 500px; /* Ancho máximo para el formulario */
+    }
+
+    input[type=text], input[type=email], input[type=password] {
+        width: calc(100% - 20px); /* Ajusta el ancho para pantallas grandes */
+    }
+
+    .forms > p > input[type="password"] {
+        width: calc(100% - 70px); /* Ajusta el ancho para dejar espacio para el botón "Mostrar" */
+    }
+
+    .forms > p > button#toggleButton {
+        right: 15px; /* Alinea el botón "Mostrar" un poco más a la derecha */
+        padding: 10px 10px; /* Ajusta el relleno para pantallas grandes */
+    }
+}
 
 /* Media query para dispositivos móviles */
 @media (max-width: 360px) {

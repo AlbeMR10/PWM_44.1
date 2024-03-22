@@ -29,3 +29,37 @@
     font-size: 2em;
     text-align: center;
 }
+
+@media only screen and (max-width: 1440px){
+    .divider-container {
+        padding: 20px;
+    }
+    .logo-club-star > img {
+        max-height: 30em; /* Ajusta el tamaño del logo */
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    .next-matches {
+        margin-top: 2em;
+    }
+}
+@media only screen and (max-width: 360px){
+    .divider-container {
+        padding: 10px;
+    }
+    .side-left, .side-right-grid {
+        width: 100%;
+        display: block;
+    }
+    .logo-club-star > img {
+        max-height: 15em; /* Reduce aún más el tamaño del logo */
+        margin: 1em auto; /* Centra el logo */
+    }
+    .next-matches {
+        margin-top: 1em;
+    }
+    .matches {
+        font-size: 1.5em; /* Ajusta el tamaño de la fuente para que se vea bien en móviles */
+    }
+}

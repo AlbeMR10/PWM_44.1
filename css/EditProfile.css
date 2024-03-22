@@ -24,6 +24,37 @@
     text-align: center;
 }
 
+@media (max-width: 1440px){
+    .divider-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .side-left, .side-right {
+        width: 50%;
+    }
+
+    .edit-profile > img {
+        max-height: 20em; /* Ajusta la altura máxima de la imagen para tabletas */
+        width: auto;
+        max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    }
+
+    .subtitle {
+        font-size: 1.5em; /* Aumenta el tamaño del texto para una mejor visualización en tabletas */
+    }
+
+    .edit-profile, .side-right {
+        margin-bottom: 2em;
+    }
+
+    .edit-profile > .upload-image > button {
+        padding: 15px; /* Aumenta el relleno para un mejor toque en tabletas */
+        font-size: 1.2em; /* Aumenta el tamaño de la fuente del botón */
+    }
+}
+
 /* Estilos para dispositivos móviles */
 @media (max-width: 360px) {
     .divider-container {

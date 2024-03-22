@@ -98,3 +98,62 @@ header .sign-up-button:hover {
 header .profile-button > img{
     height: 8em;
 }
+/* Estilos generales para móviles */
+@media screen and (max-width: 360px) {
+    header {
+        flex-direction: column;
+        margin: 1em 0;
+    }
+
+    header .header-logo {
+        order: 1;
+        width: 60%; /* Ajusta esto según necesites */
+        margin: 0 auto; /* Centra el logo */
+    }
+
+    header .header-logo img {
+        width: 50%; /* Ajusta esto para que el logo se adapte al contenedor */
+    }
+
+    header nav,
+    header > div {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul,
+    header nav ul li {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Ocultar las opciones de navegación por defecto */
+    header nav ul {
+        display: none;
+    }
+
+    /* Botón de menú para móviles */
+    .menu-button {
+        order: 2;
+        background-image: url('../images/menubuttonofthreelines_79781.png'); /* Asegúrate de que la ruta de la imagen sea correcta */
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 30px; /* Ajusta esto según necesites */
+        height: 30px; /* Ajusta esto según necesites */
+        margin: 0 auto; /* Centra el botón de menú */
+    }
+
+    /* Mostrar opciones de navegación al hacer clic en el botón de menú */
+    .menu-button.active + nav ul {
+        display: flex;
+    }
+
+    /* Ajustar el tamaño de los botones de registro e inicio de sesión */
+    header .register-button,
+    header .sign-up-button {
+        padding: 0.3em 0.6em; /* Reduce el relleno para hacerlos más pequeños */
+        font-size: 1em; /* Reduce el tamaño de la fuente */
+    }
+}
