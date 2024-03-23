@@ -97,8 +97,6 @@
     .side-left, .side-right {
         width: 100%; /* Ajusta el ancho al 100% para que ocupen toda la fila */
     }
-
-    /* Otros ajustes de estilo que desees realizar */
 }
 
 @media (max-width: 360px) {
