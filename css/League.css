@@ -85,3 +85,23 @@
         width: 80%; /* Ajusta el ancho de las imágenes de los equipos */
     }
 }
+
+@media (max-width: 360px) {
+    .divider-container {
+        display: block;
+    }
+    .side-left, .side-right-grid {
+        max-width: 100%;
+    }
+    .clasificacion, .teams-league {
+        text-align: center;
+    }
+    .clasificacion img, .teams-league img {
+        width: 80%; /* Ajustar al contenedor */
+        height: auto;
+        margin: 10px 0; /* Espaciado vertical */
+    }
+    .logo-league-star {
+        display: none; /* Ocultar el logo de la liga */
+    }
+}
