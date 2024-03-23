@@ -75,3 +75,20 @@
 	transition: transform 0.2s ease-in-out;
 	cursor: pointer;
 }
+
+@media (max-width: 1440px) {
+	.home-sports, .home-teams {
+		gap: 2em; /* Ajusta el espacio entre los elementos si es necesario */
+	}
+}
+
+@media (max-width: 360px) {
+	.home-sports, .home-teams {
+		grid-template-columns: 1fr; /* Esto hará que solo se muestre una columna */
+		gap: 1em; /* Ajusta el espacio entre los elementos si es necesario */
+	}
+
+	.home-sports > button > img, .home-teams > button > img {
+		width: 100%; /* Asegúrate de que las imágenes se escalen correctamente */
+	}
+}

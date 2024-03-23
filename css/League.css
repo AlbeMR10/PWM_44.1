@@ -54,3 +54,34 @@
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
 }
+
+@media (max-width: 1440px) {
+    .logo-league-star > img {
+        max-height: 15em; /* Ajusta el tamaño de la imagen */
+    }
+
+    .teams-league {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajusta el tamaño de las columnas */
+        gap: 0.5em;
+        margin: 1em;
+    }
+}
+
+@media (max-width: 360px) {
+    .logo-league-star {
+        order: -1; /* Coloca la imagen de la liga en la parte superior */
+    }
+
+    .clasificacion > img {
+        margin: 0 auto; /* Centra la imagen de clasificación */
+        display: block;
+    }
+
+    .teams-league {
+        grid-template-columns: 1fr; /* Coloca las imágenes de los equipos en una sola columna */
+    }
+
+    .teams-league > button > img {
+        width: 80%; /* Ajusta el ancho de las imágenes de los equipos */
+    }
+}

@@ -87,3 +87,60 @@
     margin-top: 0.75em;
     margin-bottom: 1em;
 }
+
+/* Media query para resoluciones de hasta 1440px */
+@media (max-width: 1440px) {
+    .divider-container {
+        flex-direction: column; /* Cambia la dirección del flex a columna */
+    }
+
+    .side-left, .side-right {
+        width: 100%; /* Ajusta el ancho al 100% para que ocupen toda la fila */
+    }
+
+    /* Otros ajustes de estilo que desees realizar */
+}
+
+@media (max-width: 360px) {
+    .divider-container {
+        display: block; /* Cambia el contenedor a un bloque estándar */
+    }
+
+    .side-left, .side-right {
+        width: 100%; /* Ajusta el ancho al 100% */
+        display: block; /* Asegura que cada lado se muestre como un bloque */
+    }
+
+    .profile {
+        display: block; /* Asegura que el perfil se muestre como un bloque */
+        text-align: center; /* Centra el contenido del perfil */
+        margin-top: 0; /* Asegura que no haya margen en la parte superior */
+    }
+
+    .profile > img {
+        max-width: 80%; /* Ajusta el tamaño de la imagen de perfil */
+        margin: 0 auto; /* Centra la imagen de perfil */
+    }
+
+    .profile > button {
+        display: block; /* Muestra el botón debajo de la imagen de perfil */
+        margin: 1em auto; /* Centra el botón debajo de la imagen de perfil */
+    }
+
+    .email-text {
+        display: none; /* Oculta el texto del correo electrónico */
+    }
+
+    .favourite-leagues, .favourite-teams {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 0.5em;
+        margin: 1em;
+    }
+
+    .divider-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .side-right {
+        order: -1; /* Esto hará que el bloque side-right se muestre primero */
+
