@@ -3,5 +3,1365 @@
   "logo": "../images/leagues/logo/premier.png",
   "art": "../images/leagues/arts/premier.png",
   "equipos": [
+    {
+      "nombre": "Arsenal FC",
+      "escudo": "../images/teams/premier/arsenal.png",
+      "porteros": [
+        {
+          "nombre": "D.Raya",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "A.Ramsdale",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "B.White",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "W.Saliba",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "Gabriel",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "O.Zinchenko",
+          "dorsal": "35"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "D.Rice",
+          "dorsal": "41"
+        },
+        {
+          "nombre": "M.Odegaard",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "Jorginho",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "L.Trossard",
+          "dorsal": "19"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "B.Saka",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "G.Martinelli",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "K.Havertz",
+          "dorsal": "29"
+        },
+        {
+          "nombre": "E.Nketiah",
+          "dorsal": "14"
+        }
+      ]
+    },
+    {
+      "nombre": "Liverpool",
+      "escudo": "../images/teams/premier/liverpool.png",
+      "porteros": [
+        {
+          "nombre": "A.Becker",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "C.Kelleher",
+          "dorsal": "62"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "J.Gomez",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "V.Van Dijk",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "I.Konate",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "Alexander-Arnold",
+          "dorsal": "66"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "H.Elliot",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "A.Mac Allister",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "W.Endo",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "D.Szoboszlai",
+          "dorsal": "8"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "D.Nuñez",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "C.Gakpo",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "L.Diaz",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "M.Salah",
+          "dorsal": "11"
+        }
+      ]
+    },
+    {
+      "nombre": "Manchester City",
+      "escudo": "../images/teams/premier/man-city.png",
+      "porteros": [
+        {
+          "nombre": "Ederson",
+          "dorsal": "31"
+        },
+        {
+          "nombre": "S.Ortega",
+          "dorsal": "18"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "K.Walker",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "R.Diaz",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "N.Ake",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "M.Akanji",
+          "dorsal": "25"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "K.De Bruyne",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "Rodri",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "P.Foden",
+          "dorsal": "47"
+        },
+        {
+          "nombre": "B.Silva",
+          "dorsal": "20"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "J.Alvarez",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "J.Doku",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "J.Grealish",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "E.Haaland",
+          "dorsal": "9"
+        }
+      ]
+    },
+    {
+      "nombre": "Aston Villa",
+      "escudo": "../images/teams/premier/aston-villa.png",
+      "porteros": [
+        {
+          "nombre": "E.Martinez",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "R.Olsen",
+          "dorsal": "25"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "M.Cash",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "E.Konsa",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "P.Torres",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "D.Carlos",
+          "dorsal": "3"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "D.Luiz",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "J.McGinn",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Y.Tielemans",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "N.Zaniolo",
+          "dorsal": "22"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "M.Diby",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "L.Bailey",
+          "dorsal": "31"
+        },
+        {
+          "nombre": "J.Duran",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "O.Watkins",
+          "dorsal": "11"
+        }
+      ]
+    },
+    {
+      "nombre": "Tottenham",
+      "escudo": "../images/teams/premier/tottenham.png",
+      "porteros": [
+        {
+          "nombre": "G.Vicario",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "F-Forster",
+          "dorsal": "20"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "P.Porro",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "D.Udogie",
+          "dorsal": "38"
+        },
+        {
+          "nombre": "E.Royal",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "M.Van de Ven",
+          "dorsal": "37"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "P.Hojbjerg",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "D.Kulusevski",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "B.Johnson",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "J.Maddison",
+          "dorsal": "10"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Son",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "Richarlison",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "P.Sarr",
+          "dorsal": "29"
+        },
+        {
+          "nombre": "T.Werner",
+          "dorsal": "16"
+        }
+      ]
+    },
+    {
+      "nombre": "Manchester United",
+      "escudo": "../images/teams/premier/man-united.png",
+      "porteros": [
+        {
+          "nombre": "A.Onana",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "T.Heaton",
+          "dorsal": "22"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "D.Dalot",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "R.Varane",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "V.Lindelöf",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "H.Maguire",
+          "dorsal": "5"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "B.Fernandes",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "S.McTominay",
+          "dorsal": "39"
+        },
+        {
+          "nombre": "K.Mainoo",
+          "dorsal": "38"
+        },
+        {
+          "nombre": "Casemiro",
+          "dorsal": "18"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "A.Garnacho",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "M.Rashford",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "R.Hojlund",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "A.Martial",
+          "dorsal": "9"
+        }
+      ]
+    },
+    {
+      "nombre": "West Ham",
+      "escudo": "../images/teams/premier/west-ham.png",
+      "porteros": [
+        {
+          "nombre": "A.Areola",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "L.Fabianski",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Emerson",
+          "dorsal": "33"
+        },
+        {
+          "nombre": "V.Coufal",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "K.Zouma",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "K.Mavropanos",
+          "dorsal": "15"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "T.Soucek",
+          "dorsal": "28"
+        },
+        {
+          "nombre": "J.Ward-Prowse",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "E.Alvarez",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "M.Kudus",
+          "dorsal": "14"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "L.Paqueta",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "M.Antonio",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "J.Bowen",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "D.Ings",
+          "dorsal": "18"
+        }
+      ]
+    },
+    {
+      "nombre": "Brighton",
+      "escudo": "../images/teams/premier/brighton.png",
+      "porteros": [
+        {
+          "nombre": "S.Steele",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "B.Verbruggen",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "L.Dunk",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "J.Van Hecke",
+          "dorsal": "29"
+        },
+        {
+          "nombre": "Igor",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "P.Estupiñan",
+          "dorsal": "30"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "B.Gilmour",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "S.Adingra",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "F.Buonanotte",
+          "dorsal": "40"
+        },
+        {
+          "nombre": "C.Baleba",
+          "dorsal": "20"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "J.Pedro",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "A.Fati",
+          "dorsal": "31"
+        },
+        {
+          "nombre": "P.Grob",
+          "dorsal": "13"
+        },
+        {
+          "nombre": "D.Welbeck",
+          "dorsal": "18"
+        }
+      ]
+    },
+    {
+      "nombre": "Wolverhampton",
+      "escudo": "../images/teams/premier/wolverhampton.png",
+      "porteros": [
+        {
+          "nombre": "J.Sá",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "D.Bentley",
+          "dorsal": "25"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "M.Kilman",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "N.Semedo",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "Toti",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "R.Aït-Nouri",
+          "dorsal": "3"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "M.Lemina",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "M.Doherty",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "J.Gomez",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "T.Doyle",
+          "dorsal": "20"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "M.Cunha",
+          "dorsal": "12"
+        },
+        {
+          "nombre": "P.Neto",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "P.Sarabia",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "H.Hee-Chan",
+          "dorsal": "11"
+        }
+      ]
+    },
+    {
+      "nombre": "Newcastle",
+      "escudo": "../images/teams/premier/newcastle.png",
+      "porteros": [
+        {
+          "nombre": "M.Dubravka",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "N.Pope",
+          "dorsal": "22"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "F.Schar",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "K.Trippier",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "D.Burn",
+          "dorsal": "33"
+        },
+        {
+          "nombre": "T.Livramento",
+          "dorsal": "21"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "A.Gordon",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "B.Guimarães",
+          "dorsal": "39"
+        },
+        {
+          "nombre": "S.Longstaff",
+          "dorsal": "36"
+        },
+        {
+          "nombre": "L.Miley",
+          "dorsal": "67"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "M.Almiron",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "A.Isak",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "C.Wilson",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "J.Murphy",
+          "dorsal": "23"
+        }
+      ]
+    },
+    {
+      "nombre": "Chelsea",
+      "escudo": "../images/teams/premier/chelsea.png",
+      "porteros": [
+        {
+          "nombre": "R.Sanchez",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "D.Petrovic",
+          "dorsal": "28"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "A.Disasi",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "L.Colwill",
+          "dorsal": "26"
+        },
+        {
+          "nombre": "T.Silva",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "M.Gusto",
+          "dorsal": "27"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "C.Gallager",
+          "dorsal": "23"
+        },
+        {
+          "nombre": "M.Caicedo",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "E.Fernandez",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "C.Palmer",
+          "dorsal": "20"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "R.Sterling",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "N.Jackson",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "M.Mudryk",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "N.Madueke",
+          "dorsal": "11"
+        }
+      ]
+    },
+    {
+      "nombre": "Fulham",
+      "escudo": "../images/teams/premier/fulham.png",
+      "porteros": [
+        {
+          "nombre": "B.leno",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "M.Rodák",
+          "dorsal": "1"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "A.Robinson",
+          "dorsal": "33"
+        },
+        {
+          "nombre": "T.Castagne",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "C.Bassey",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "I.Diop",
+          "dorsal": "31"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "A.Pereira",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "H.Wilson",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "T.Cairney",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "H.Reed",
+          "dorsal": "6"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Willian",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "R.Jimenez",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "R.Muniz",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "A.Traoré",
+          "dorsal": "11"
+        }
+      ]
+    },
+    {
+      "nombre": "Burnemouth",
+      "escudo": "../images/teams/premier/Bournemouth.png",
+      "porteros": [
+        {
+          "nombre": "Neto",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "I.Radu",
+          "dorsal": "20"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "I.Zabarnyi",
+          "dorsal": "27"
+        },
+        {
+          "nombre": "M.Sensei",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "M.Kerkez",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "A.Smith",
+          "dorsal": "15"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "R.Christie",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "M.Tavernier",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "L.Cook",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "A.Samenyo",
+          "dorsal": "24"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "J.Kluivert",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "D.Outtara",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "L.Sinisterra",
+          "dorsal": "17"
+        },
+        {
+          "nombre": "D.Solanke",
+          "dorsal": "9"
+        }
+      ]
+    },
+    {
+      "nombre": "Crystal Palace",
+      "escudo": "../images/teams/premier/crystal-palace.png",
+      "porteros": [
+        {
+          "nombre": "S.Jhonstone",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "D.Henderson",
+          "dorsal": "30"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "T.Mitchell",
+          "dorsal": "27"
+        },
+        {
+          "nombre": "J.Andersen",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "M.Guehi",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "C.Richards",
+          "dorsal": "26"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "J.Lerma",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "J.Schlupp",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "W.Hughes",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "N.Ahamada",
+          "dorsal": "29"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "O.Édouard",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "E.Eze",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "J.Mateta",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "J.Ayew",
+          "dorsal": "9"
+        }
+      ]
+    },
+    {
+      "nombre": "Brentford",
+      "escudo": "../images/teams/premier/brentford.png",
+      "porteros": [
+        {
+          "nombre": "M.Flekken",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "T.Strakosha",
+          "dorsal": "21"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "C.Norgaard",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "N.Clollins",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "E.Pinnock",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "K.Ajer",
+          "dorsal": "20"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "V.Janelt",
+          "dorsal": "27"
+        },
+        {
+          "nombre": "M.Rasmussen",
+          "dorsal": "30"
+        },
+        {
+          "nombre": "M.Jensen",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "K.Lewis-Potter",
+          "dorsal": "23"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Y.Wissa",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "N.Maupay",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "B.Mbeumo",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "I.Toney",
+          "dorsal": "17"
+        }
+      ]
+    },
+    {
+      "nombre": "Everton",
+      "escudo": "../images/teams/premier/everton.png",
+      "porteros": [
+        {
+          "nombre": "J.Pickford",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "J.Virginia",
+          "dorsal": "12"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "J.Tarkowski",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "J.Brantwaite",
+          "dorsal": "32"
+        },
+        {
+          "nombre": "V.Mykolenko",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "N.Patterson",
+          "dorsal": "2"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "J.Garner",
+          "dorsal": "37"
+        },
+        {
+          "nombre": "D.Mcneil",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "A.Onana",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "A.Young",
+          "dorsal": "18"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "J.Harrison",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "A.Doucure",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "D.Calvert-Lewin",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "Beto",
+          "dorsal": "14"
+        }
+      ]
+    },
+    {
+      "nombre": "Nottthingam Forest",
+      "escudo": "../images/teams/premier/nottingham.png",
+      "porteros": [
+        {
+          "nombre": "M.Turner",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "O.Vlachodimos",
+          "dorsal": "23"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "Murillo",
+          "dorsal": "40"
+        },
+        {
+          "nombre": "H.Toffolo",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "M.Niakhate",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "W.Boly",
+          "dorsal": "30"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "A.Elanga",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "R.Yates",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "Danilo",
+          "dorsal": "28"
+        },
+        {
+          "nombre": "C.Hudson-Odoi",
+          "dorsal": "14"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "M.Gibbs-White",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "N.Williams",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "C.Wood",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "T.Awoniyi",
+          "dorsal": "9"
+        }
+      ]
+    },
+    {
+      "nombre": "Luton Town",
+      "escudo": "../images/teams/premier/luton.png",
+      "porteros": [
+        {
+          "nombre": "T.Kaminiski",
+          "dorsal": "24"
+        },
+        {
+          "nombre": "T.Krul",
+          "dorsal": "23"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "T.Mengi",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "R.Burke",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "T.Lockyer",
+          "dorsal": "4"
+        },
+        {
+          "nombre": "M.Andersen",
+          "dorsal": "5"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "A.Doughty",
+          "dorsal": "45"
+        },
+        {
+          "nombre": "R.Barkley",
+          "dorsal": "6"
+        },
+        {
+          "nombre": "T.Chong",
+          "dorsal": "14"
+        },
+        {
+          "nombre": "A.Bell",
+          "dorsal": "29"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "C.Morris",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "C.Ogbene",
+          "dorsal": "7"
+        },
+        {
+          "nombre": "E.Adebayo",
+          "dorsal": "11"
+        },
+        {
+          "nombre": "C.Woodrow",
+          "dorsal": "10"
+        }
+      ]
+    },
+    {
+      "nombre": "Burnley",
+      "escudo": "../images/teams/premier/burnley.png",
+      "porteros": [
+        {
+          "nombre": "J.Trafford",
+          "dorsal": "1"
+        },
+        {
+          "nombre": "A.Muric",
+          "dorsal": "49"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "D.O'Shea",
+          "dorsal": "2"
+        },
+        {
+          "nombre": "C.Taylor",
+          "dorsal": "3"
+        },
+        {
+          "nombre": "A.Al Dekhil",
+          "dorsal": "28"
+        },
+        {
+          "nombre": "J.Beyer",
+          "dorsal": "5"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "S.Berge",
+          "dorsal": "16"
+        },
+        {
+          "nombre": "J.Brownhill",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "Vitinho",
+          "dorsal": "22"
+        },
+        {
+          "nombre": "J.Bruun Larsen",
+          "dorsal": "34"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "Z.Amdouni",
+          "dorsal": "25"
+        },
+        {
+          "nombre": "W.Obobert",
+          "dorsal": "47"
+        },
+        {
+          "nombre": "J.Rodríguez",
+          "dorsal": "9"
+        },
+        {
+          "nombre": "L.Foster",
+          "dorsal": "17"
+        }
+      ]
+    },
+    {
+      "nombre": "Sheffield United",
+      "escudo": "../images/teams/premier/sheffield.png",
+      "porteros": [
+        {
+          "nombre": "W.Foderingham",
+          "dorsal": "18"
+        },
+        {
+          "nombre": "I.Grbic",
+          "dorsal": "13"
+        }
+      ],
+      "defensas": [
+        {
+          "nombre": "J.Robinson",
+          "dorsal": "19"
+        },
+        {
+          "nombre": "A.Trusty",
+          "dorsal": "5"
+        },
+        {
+          "nombre": "A.Ahmedhodzic",
+          "dorsal": "15"
+        },
+        {
+          "nombre": "C.basham",
+          "dorsal": "6"
+        }
+      ],
+      "centrocampistas": [
+        {
+          "nombre": "V.Souza",
+          "dorsal": "21"
+        },
+        {
+          "nombre": "G.Hamer",
+          "dorsal": "8"
+        },
+        {
+          "nombre": "J.Bogle",
+          "dorsal": "20"
+        },
+        {
+          "nombre": "B.Osborn",
+          "dorsal": "23"
+        }
+      ],
+      "delanteros": [
+        {
+          "nombre": "J.McAtee",
+          "dorsal": "28"
+        },
+        {
+          "nombre": "C.Archer",
+          "dorsal": "10"
+        },
+        {
+          "nombre": "W.Osula",
+          "dorsal": "32"
+        },
+        {
+          "nombre": "O.McBurnie",
+          "dorsal": "9"
+        }
+      ]
+    }
   ]
 }
