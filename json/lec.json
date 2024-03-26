@@ -1,97 +1,97 @@
 {
-  "nombre": "LEC",
+  "name": "LEC",
   "logo": "../images/leagues/logo/lec.png",
   "art": "../images/leagues/arts/lec.png",
-  "equipos": [
+  "teams": [
     {
-      "nombre": "Fnatic",
+      "name": "Fnatic",
       "logo": "../images/teams/lec/fnatic.png",
-      "Top": "Oscarinin",
-      "Jungla": "Razork",
-      "Mid": "Humanoid",
-      "Bot": "Noah",
-      "Support": "Jun"
+      "top": "Oscarinin",
+      "jungle": "Razork",
+      "mid": "Humanoid",
+      "bot": "Noah",
+      "support": "Jun"
     },
     {
-      "nombre": "G2 Esports",
+      "name": "G2 Esports",
       "logo": "../images/teams/lec/g2.png",
-      "Top": "BrokenBlade",
-      "Jungla": "Yike",
-      "Mid": "Caps",
-      "Bot": "Hans Sama",
-      "Support": "Mikyx"
+      "top": "BrokenBlade",
+      "jungle": "Yike",
+      "mid": "Caps",
+      "bot": "Hans Sama",
+      "support": "Mikyx"
     },
     {
-      "nombre": "GiantX",
+      "name": "GiantX",
       "logo": "../images/teams/lec/giantx.png",
-      "Top": "Odoamne",
-      "Jungla": "Peach",
-      "Mid": "Jackies",
-      "Bot": "Patrick",
-      "Support": "Ignar"
+      "top": "Odoamne",
+      "jungle": "Peach",
+      "mid": "Jackies",
+      "bot": "Patrick",
+      "support": "Ignar"
     },
     {
-      "nombre": "Karmine Corp",
+      "name": "Karmine Corp",
       "logo": "../images/teams/lec/kcorp.png",
-      "Top": "Cabochard",
-      "Jungla": "Bo",
-      "Mid": "Saken",
-      "Bot": "Upset",
-      "Support": "Targamas"
+      "top": "Cabochard",
+      "jungle": "Bo",
+      "mid": "Saken",
+      "bot": "Upset",
+      "support": "Targamas"
     },
     {
-      "nombre": "Mad Lions KOI",
+      "name": "Mad Lions KOI",
       "logo": "../images/teams/lec/madlions.png",
-      "Top": "Myrwn",
-      "Jungla": "ELyoya",
-      "Mid": "Fresskowy",
-      "Bot": "Supa",
-      "Support": "Alvaro"
+      "top": "Myrwn",
+      "jungle": "ELyoya",
+      "mid": "Fresskowy",
+      "bot": "Supa",
+      "support": "Alvaro"
     },
     {
-      "nombre": "Rogue",
+      "name": "Rogue",
       "logo": "../images/teams/lec/rogue.png",
-      "Top": "Finn",
-      "Jungla": "Markoon",
-      "Mid": "Larssen",
-      "Bot": "Comp",
-      "Support": "Zoelys"
+      "top": "Finn",
+      "jungle": "Markoon",
+      "mid": "Larssen",
+      "bot": "Comp",
+      "support": "Zoelys"
     },
     {
-      "nombre": "SK Gaming",
+      "name": "SK Gaming",
       "logo": "../images/teams/lec/sk.png",
-      "Top": "Irrelevant",
-      "Jungla": "Isma",
-      "Mid": "Nisqy",
-      "Bot": "Exakick",
-      "Support": "Doss"
+      "top": "Irrelevant",
+      "jungle": "Isma",
+      "mid": "Nisqy",
+      "bot": "Exakick",
+      "support": "Doss"
     },
     {
-      "nombre": "Team BDS",
+      "name": "Team BDS",
       "logo": "../images/teams/lec/bds.png",
-      "Top": "Adam",
-      "Jungla": "Sheo",
-      "Mid": "Nuc",
-      "Bot": "Ice",
-      "Support": "Labrov"
+      "top": "Adam",
+      "jungle": "Sheo",
+      "mid": "Nuc",
+      "bot": "Ice",
+      "support": "Labrov"
     },
     {
-      "nombre": "Team Heretics",
+      "name": "Team Heretics",
       "logo": "../images/teams/lec/heretics.png",
-      "Top": "Wunder",
-      "Jungla": "Jankos",
-      "Mid": "Zwyroo",
-      "Bot": "Flakked",
-      "Support": "Trymbi"
+      "top": "Wunder",
+      "jungle": "Jankos",
+      "mid": "Zwyroo",
+      "bot": "Flakked",
+      "support": "Trymbi"
     },
     {
-      "nombre": "Team Vitality",
+      "name": "Team Vitality",
       "logo": "../images/teams/lec/vitality.png",
-      "Top": "Photon",
-      "Jungla": "Daglas",
-      "Mid": "Vetheo",
-      "Bot": "Carzzy",
-      "Support": "Hylissang"
+      "top": "Photon",
+      "jungle": "Daglas",
+      "mid": "Vetheo",
+      "bot": "Carzzy",
+      "support": "Hylissang"
     }
   ]
 }
