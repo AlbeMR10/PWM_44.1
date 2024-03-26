@@ -1,7 +1,7 @@
 {
   "nombre": "Premier League",
-  "logo": "../images/leagues/logo/premier.png",
-  "art": "../images/leagues/arts/premier.png",
+  "logo": "../images/leagues/logo/premier-league.png",
+  "art": "../images/leagues/arts/premier-league.png",
   "equipos": [
     {
       "nombre": "Arsenal FC",
@@ -141,7 +141,7 @@
     },
     {
       "nombre": "Manchester City",
-      "escudo": "../images/teams/premier/man-city.png",
+      "escudo": "../images/teams/premier/manchester-city.png",
       "porteros": [
         {
           "nombre": "Ederson",
@@ -345,7 +345,7 @@
     },
     {
       "nombre": "Manchester United",
-      "escudo": "../images/teams/premier/man-united.png",
+      "escudo": "../images/teams/premier/manchester-united.png",
       "porteros": [
         {
           "nombre": "A.Onana",
@@ -820,8 +820,8 @@
       ]
     },
     {
-      "nombre": "Burnemouth",
-      "escudo": "../images/teams/premier/Bournemouth.png",
+      "nombre": "Bournemouth",
+      "escudo": "../images/teams/premier/bournemouth.png",
       "porteros": [
         {
           "nombre": "Neto",
@@ -1092,8 +1092,8 @@
       ]
     },
     {
-      "nombre": "Nottthingam Forest",
-      "escudo": "../images/teams/premier/nottingham.png",
+      "nombre": "Nottingham Forest",
+      "escudo": "../images/teams/premier/nottingham-forest.png",
       "porteros": [
         {
           "nombre": "M.Turner",

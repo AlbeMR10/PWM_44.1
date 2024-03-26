@@ -5,7 +5,7 @@
   "equipos": [
     {
       "nombre": "FC Barcelona",
-      "escudo": "../images/teams/laliga/fcb.png",
+      "escudo": "../images/teams/laliga/barcelona.png",
       "porteros": [
         {
           "nombre": "Ter Stegen",
