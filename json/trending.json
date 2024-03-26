@@ -1,0 +1,62 @@
+{
+  "leagues": [
+    {
+      "nombre": "La Liga EA Sports",
+      "logo": "../images/leagues/logo/laliga.png",
+      "art": "../images/leagues/arts/laliga.png"
+    },
+    {
+      "nombre": "NBA",
+      "logo": "../images/leagues/logo/nba.png",
+      "art": "../images/leagues/arts/nba.png"
+    },
+    {
+      "nombre": "Premier League",
+      "logo": "../images/leagues/logo/premier-league.png",
+      "art": "../images/leagues/arts/premier-league.png"
+    },
+    {
+      "nombre": "LEC",
+      "logo": "../images/leagues/logo/lec.png",
+      "art": "../images/leagues/arts/lec.png"
+    }
+  ],
+  "teams": [
+    {
+      "nombre": "Real Madrid",
+      "escudo": "../images/teams/laliga/madrid.png"
+    },
+    {
+      "nombre": "FC Barcelona",
+      "escudo": "../images/teams/laliga/barcelona.png"
+    },
+    {
+      "nombre": "Fnatic",
+      "logo": "../images/teams/lec/fnatic.png"
+    },
+    {
+      "nombre": "G2 Esports",
+      "logo": "../images/teams/lec/g2.png"
+    },
+    {
+      "nombre": "Manchester United",
+      "escudo": "../images/teams/premier/manchester-united.png"
+    },
+    {
+      "nombre": "Liverpool",
+      "escudo": "../images/teams/premier/liverpool.png"
+    },
+    {
+      "nombre": "Golden State Warriors",
+      "escudo": "../images/teams/nba/warriors.png"
+    },
+    {
+      "nombre": "Miami Heat",
+      "escudo": "../images/teams/nba/heat.png"
+    },
+    {
+      "nombre": "Milwaukee Bucks",
+      "escudo": "../images/teams/nba/bucks.png"
+    }
+  ]
+}
